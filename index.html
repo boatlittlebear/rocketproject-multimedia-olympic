@@ -13,30 +13,82 @@
   
 
   <div id="slider" class="slider">
-      <section data-main="main" class="fullscreen">
+      <section class="fullscreen" data-main="main">
+        <div class="container">        
+          <div class="grid-parent">
+            <div class="span-12 mob-span-12 padding-top">
+              <h1>History of Olympic</h1>
+            </div>
+            <div class="card-article span-8 mob-span-8">
+              <p class="text-block">
+                กีฬาโอลิมปิกเกมส์ (อังกฤษ: Olympic Games, ฝรั่งเศส: les Jeux olympiques, JO)<br>
+                หรือกีฬาโอลิมปิกเกมส์สมัยใหม่ (อังกฤษ: Modern Olympic Games)<br>
+                เป็นการแข่งขันกีฬาระหว่างประเทศที่สำคัญ มีทั้งกีฬาฤดูร้อนและฤดูหนาว
+                โดยมีนักกีฬากว่าพันคนเข้าร่วมการแข่งขันในหลายชนิดกีฬา
+                กีฬาโอลิมปิกถูกมองว่าเป็นการแข่งขันกีฬาที่สำคัญที่สุดของโลก<br>
+                โดยมีประเทศเข้าร่วมแข่งขันกว่า 200 ประเทศ ปัจจุบัน กีฬาโอลิมปิกจัดขึ้นทุก ๆ 4 ปี
+                โดยผลัดกันระหว่างโอลิมปิกฤดูร้อนกับโอลิมปิกฤดูหนาวห่างกันทุก 2 ปี
+              </p>
+            </div>
+            <div class="span-4 mob-span-4">
+              <img src="https://media.discordapp.net/attachments/598560825036242957/894649130696200262/2560px-Olympic_rings_without_rims.png?width=1478&height=683" class="fullwidth">
+            </div>
+          </div>
+
+          <a href="#season1"><img src="https://media.discordapp.net/attachments/598560825036242957/894678716268032020/sun.png" style="width: 80px; cursor:pointer" onclick="summer()"></a>
+          <a href="#season1"><img src="https://media.discordapp.net/attachments/598560825036242957/894678671816806440/snowflake.png" style="width: 80px; cursor:pointer" onclick="winter()"></a>
+
+        </div>
       </section>
-      <section data-season="main">
-        <h1>Section Two</h1>
+      <section id="season1" data-season="summer">
+        <div class="container">        
+          <div class="grid-parent">
+            <div id="host" class="span-12 mob-span-12 padding-top">
+              <h1>Host</h1>
+            </div>
+            <div class="span-4 mob-span-4">
+              <div id="flag" class="fullscreen" data-year="x-xxxx"></div>
+            </div>
+            <div id="description" class="card-article span-8 mob-span-8">
+              <p>
+                Description
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
-      <section data-season="main">
-        <h1>Section Three</h1>
+      <section id="season12" data-season="summer">
+        <h1>Section 1.2</h1>
       </section>
-      <section data-season="main">
-        <h1>Section Four</h1>
+      <section id="season2" data-season="summer">
+        <h1>Section 2</h1>
       </section>
-      <section data-season="main">
-        <h1>Section Five</h1>
+      <section id="season22" data-season="summer">
+        <h1>Section 2.2</h1>
+      </section>
+      <section id="season3" data-season="summer">
+        <h1>Section 3</h1>
+      </section>
+      <section id="season32" data-season="summer">
+        <h1>Section 3.2</h1>
+      </section>
+      <section id="season4" data-season="summer">
+        <h1>Section 4</h1>
+      </section>
+      <section id="season42" data-season="summer">
+        <h1>Section 4.2</h1>
+      </section>
+      <section id="season5" data-season="summer">
+        <h1>Section 5</h1>
+      </section>
+      <section id="season52" data-season="summer">
+        <h1>Section 5.2</h1>
       </section>
       <div class="athlete fullscreen"></div>
       <footer>
       </footer>
   </div>
 
-
-  
-
- 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="main-js/function.js"></script>
+  <script src="js/function.js"></script>
 </body>
 </html>
