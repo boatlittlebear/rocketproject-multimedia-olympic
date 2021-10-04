@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Document</title>
     <style>
         body {
@@ -26,24 +27,50 @@
             /* to remove the default white margin of body */
             overflow: hidden;
         }
+
+        .container {
+            font-family: Arial;
+        }
+
+        .text-block {
+            
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-          <div class="col">
-            Column
-          </div>
-          <div class="col">
-            Column
-          </div>
-          <div class="col">
-            Column
-          </div>
+            <div class="col col-md-auto">
+                <h1>ประวัติศาสตร์โอลิมปิก</h1>
+            </div>
+
         </div>
-      </div>
-    
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="text-block">
+                    กีฬาโอลิมปิกเกมส์ (อังกฤษ: Olympic Games, ฝรั่งเศส: les Jeux olympiques, JO)<br>
+                    หรือกีฬาโอลิมปิกเกมส์สมัยใหม่ (อังกฤษ: Modern Olympic Games)<br>
+                    เป็นการแข่งขันกีฬาระหว่างประเทศที่สำคัญ มีทั้งกีฬาฤดูร้อนและฤดูหนาว
+                    โดยมีนักกีฬากว่าพันคนเข้าร่วมการแข่งขันในหลายชนิดกีฬา
+                    กีฬาโอลิมปิกถูกมองว่าเป็นการแข่งขันกีฬาที่สำคัญที่สุดของโลก<br>
+                    โดยมีประเทศเข้าร่วมแข่งขันกว่า 200 ประเทศ ปัจจุบัน กีฬาโอลิมปิกจัดขึ้นทุก ๆ 4 ปี
+                    โดยผลัดกันระหว่างโอลิมปิกฤดูร้อนกับโอลิมปิกฤดูหนาวห่างกันทุก 2 ปี
+                </p>
+            </div>
+            <div class="col-sm-6">col-sm-4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">col-sm-8</div>
+            <div class="col-sm-6">col-sm-4</div>
+
+        </div>
+    </div>
+
 
 
 </body>
