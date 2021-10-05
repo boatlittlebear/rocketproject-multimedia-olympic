@@ -75,6 +75,13 @@ function winter() {
 
 }
 
+let scroller = document.querySelector("#slider");
+const output = document.querySelector("#output");
+
+scroller.addEventListener("scroll", event => {
+  output.textContent = `scrollLeft: ${scroller.scrollLeft}`;
+});
+
 document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowRight') {
         athlete.style.backgroundImage = "url('https://media.discordapp.net/attachments/871977129376616459/886628120113844254/image2_1.gif')";

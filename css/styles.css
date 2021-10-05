@@ -12,6 +12,15 @@ body {
 	overflow-y: hidden;
 }
 
+#output {
+  font-size:3em;
+  position:fixed;
+  top:0;
+  left:0;
+  background:#fffc;
+  z-index: 3;
+}
+
 .fullscreen {
   background-repeat: no-repeat;
   background-position: center;
