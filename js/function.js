@@ -58,11 +58,15 @@ function summer() {
 
 function winter() {
     main.dataset.main = 'winter';
-    season1.dataset.season = 'winter';
+
+    season1.dataset.season = 'w-1924';
     season1.dataset.year = 'w-1924';
     h.innerHTML = winterHost[0];
     d.innerHTML = winterDescription[0];
-    season12.dataset.season = 'winter';
+    season12.dataset.season = 'w-1924';
+    season12.dataset.year = 'w-1924';
+    s.innerHTML = summerHistory[0];
+
     season2.dataset.season = 'winter';
     season22.dataset.season = 'winter';
     season3.dataset.season = 'winter';

@@ -131,10 +131,13 @@ section {
 [data-season="winter"] {
 	background: cornflowerblue;
 }
-
+[data-season="w-1924"] {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/894825951018512394/image.png?width=960&height=540");
+}
 [data-year="w-1924"] #flag {
   background-image: url("https://images-ext-2.discordapp.net/external/oJzzQyIKWl2AHNErVbtRl5Io9GsNKNL4qhoxhrcNdyY/https/acegif.com/wp-content/gifs/france-flag-2.gif");
 }
+
 
 /* Gird */
 .container {
