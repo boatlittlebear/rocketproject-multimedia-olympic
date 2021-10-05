@@ -12,19 +12,17 @@ body {
 	overflow-y: hidden;
 }
 
-footer {
-  width: 100%;
-  height: 5rem;
-  bottom: 0;
-  position: fixed;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/893863724711022602/unknown.png");
-  z-index: 1;
-}
-
 .fullscreen {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.logo {
+  width: 325px;
+  height: 150px;
+  position: absolute;
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894649130696200262/2560px-Olympic_rings_without_rims.png?width=960&height=444");
 }
 
 .athlete {
@@ -38,9 +36,27 @@ footer {
   z-index: 2;
 }
 
+footer {
+  width: 100%;
+  height: 5rem;
+  bottom: 0;
+  position: fixed;
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894714408436125756/Green_Grass_Ground_PNG_Clipart.png?width=960&height=250");
+  z-index: 1;
+  transition: 1s;
+}
+
+[data-footerseason="summer"] {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/893863724711022602/unknown.png");
+}
+
+[data-footerseason="winter"] {
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894713726329053275/pngkey.com-snow-png-14498.png?width=960&height=298");
+}
+
 .slider {
 	font-family: sans-serif;
-	scroll-snap-type: x mandatory;	
+	/*scroll-snap-type: x mandatory;*/	
 	display: flex;
 	-webkit-overflow-scrolling: touch;
 	overflow-x: scroll;
@@ -52,6 +68,7 @@ section {
 	scroll-snap-align: start;
 	text-align: center;
 	position: relative;
+  transition: 1s;
 }
 
 #flag {
@@ -60,8 +77,26 @@ section {
   background-image: url("https://lh3.googleusercontent.com/proxy/aBsfsbOqQBYpyjFkqkjfylHMpgWCdddhMJ3ZATp-u7drZ_Rc9hnecCaozy40cYvVBeogqQ9GQ2ePYf5rgV_LnSCAmh01E_vVPCAylSozWTaGH03d1Alx8VQ2yBfWEQXYlpTXar5133NG7ebyx8ZOkMDslX9N");
 }
 
+#pic {
+  width: 300px;
+  height: 200px;
+  background-image: url("https://lh3.googleusercontent.com/proxy/aBsfsbOqQBYpyjFkqkjfylHMpgWCdddhMJ3ZATp-u7drZ_Rc9hnecCaozy40cYvVBeogqQ9GQ2ePYf5rgV_LnSCAmh01E_vVPCAylSozWTaGH03d1Alx8VQ2yBfWEQXYlpTXar5133NG7ebyx8ZOkMDslX9N");
+}
+
+[data-home="home"] {
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894721258430820455/people-in-public-park-with-town-background-illustration-nature-landscsape-with-people-recreation-vec.png?width=960&height=540");
+}
+
 [data-main="main"] {
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/894643013299605504/football-field-stadium-background-free-vector.png?width=1067&height=683");
+}
+
+[data-main="summer"] {
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894717615887503380/nature-landscape-summer-background-flat-design-scene-nature-with-hills-mountains-and-sky-background-.png?width=960&height=544");
+}
+
+[data-main="winter"] {
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894717475009220679/1.png");
 }
 
 [data-season="main"] {
@@ -72,9 +107,17 @@ section {
 	background: orange;
 }
 
+
+[data-season="s-1896"] {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/894733538350469130/image.jpg?width=960&height=540");
+}
 [data-year="s-1896"] #flag {
   background-image: url("https://1.bp.blogspot.com/-LtYhEFENGLQ/YDZp3qs7kZI/AAAAAAAA4J4/3yngkjdgfowZTBJpapWzpTNUhXcBxuLAwCLcBGAsYHQ/s0/Flag_of_Greece.gif");
 }
+[data-year="s-1896"] #pic {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/894750592482811914/493ac2be4d7f9512c61b5af6df757f7e.png");
+}
+
 
 [data-season="winter"] {
 	background: cornflowerblue;
@@ -85,7 +128,7 @@ section {
 }
 
 /* Gird */
-.container{
+.container {
   width:100%;
   max-width:1024;
   padding:0 1rem;
@@ -93,8 +136,7 @@ section {
   box-sizing:border-box;
 }
 
-
-.flex-center-parent{
+.flex-center-parent {
   display:flex;
   justify-content:center;
   align-items:center;
@@ -103,15 +145,9 @@ section {
 .fullwidth{
   width:100%;
 }
-.img-profile{
-  width:	25%;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  padding: 8px;
-}
 
-.padding-top{
-  padding-top: 3rem;	
+.padding{
+  padding: 1rem;	
 }
 
 .card-article{
