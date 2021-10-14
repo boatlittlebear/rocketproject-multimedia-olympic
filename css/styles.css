@@ -136,6 +136,37 @@ section {
   background-size: auto;
 }
 /****************************** Data-Set-background ******************************/
+#page1 {
+  background-image: url(/background/กรีซ1.JPG);
+  background-size: cover; 
+  background-repeat: no-repeat;                    
+  background-position: bottom; 
+}
+#page2 {
+  background-image: url(/background/ฝรั่งเศส.JPG);
+  background-size: cover; 
+  background-repeat: no-repeat;                    
+  background-position: bottom; 
+}
+#page3 {
+  background-image: url(/background/ลอนดอน.JPG);
+  background-size: cover; 
+  background-repeat: no-repeat;                    
+  background-position: bottom ; 
+}
+#page4 {
+  background-image: url(/background/ออสเตรเลีย.JPG);
+  background-size: cover; 
+  background-repeat: no-repeat;                    
+  background-position: bottom; 
+}
+#page5 {
+  background-image: url(/background/ญี่ปุ่น.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;                    
+  background-position: bottom; 
+}
+
 
 
 /****************************** Grid ******************************/
