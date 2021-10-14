@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  font-family: 'Prompt', sans-serif;
+  color: #fff;
+}
+
+body {
+	overflow-y: hidden;
+  background-image: linear-gradient(to bottom, #3DA5FA 0%, #EEF5FF 100%);
+}
+
+/****************************** Extension ******************************/
+.backgroud-full {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.fullwidth{
+  width:100%;
+}
+
+.padding{
+  padding: 1rem;	
+}
+
+.header {
+  width: 100%;
+  text-align: left;
+	font-size: 60px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.left {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.description {
+  text-align: left;
+  font-size: 20px;
+}
+/****************************** Extension ******************************/
+
+.logo {
+  width: 325px;
+  height: 150px;
+  position: absolute;
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894649130696200262/2560px-Olympic_rings_without_rims.png?width=960&height=444");
+}
+
+#output {
+  font-size: 1em;
+  position:fixed;
+  top:0;
+  left:0;
+  background: #000;;
+  z-index: 3;
+}
+
+/****************************** Footer ******************************/
+footer {
+  width: 100%;
+  height: 5rem;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+  transition: 1s;
+  background-color: grey;
+}
+
+footer[data-footerseason="main"] {
+}
+
+footer[data-footerseason="summer"] {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/893863724711022602/unknown.png");
+}
+
+footer[data-footerseason="winter"] {
+  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894713726329053275/pngkey.com-snow-png-14498.png?width=960&height=298");
+}
+
+.athlete {
+  width: 203.5px;
+  height: 240px;
+  bottom: 1.5rem;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/886628120113844254/image2_1.gif");
+  transition: .1s;
+  z-index: 2;
+}
+/****************************** Footer ******************************/
+
+/****************************** Slider & Section ******************************/
+.slider {
+	font-family: sans-serif;
+	/*scroll-snap-type: x mandatory;*/	
+	display: flex;
+	-webkit-overflow-scrolling: touch;
+	overflow-x: scroll;
+}
+
+section {
+	min-width: 100vw;
+	height: 100vh;
+	scroll-snap-align: start;
+	text-align: center;
+	position: relative;
+  transition: 1s;
+  padding: 0 5rem 5rem;
+}
+/****************************** Slider & Section ******************************/
+
+/****************************** Data-Set-background ******************************/
+#home[data-home="home"] {
+  background-image: url(/img/background/big-city.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+/****************************** Data-Set-background ******************************/
+
+
+/****************************** Grid ******************************/
+.grid {
+	display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.column-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+.grid > div.span-3 {
+	grid-column: span 3;
+}
+
+.column-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+.grid > div.span-4 {
+	grid-column: span 4;
+}
+
+.column-6 {
+	grid-template-columns: repeat(6, 1fr);
+}
+.grid > div.span-6 {
+	grid-column: span 6;
+}
+
+.column-8 {
+	grid-template-columns: repeat(8, 1fr);
+}
+.grid > div.span-8 {
+	grid-column: span 8;
+}
+
+.column-12 {
+	grid-template-columns: repeat(12,1fr);
+}
+.grid > div.span-12 {
+	grid-column: span 12;
+}
+/****************************** Grid ******************************/
+
+
+
+/****************************** Barrier ******************************/
+.barrier {
+  width: 100px;
+  height: 100px;
+  bottom: 1.5rem;
+  position: absolute;
+  z-index: 3;
+  background-image: url("/img/barrier/barrier.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.barrier[data-barrier="1"] {
+  right: 9rem;
+}
+
+.barrier[data-barrier="2"] {
+  right: 9rem;
+}
+
+.barrier[data-barrier="3"] {
+  left: 20rem;
+}
+/****************************** Barrier ******************************/
