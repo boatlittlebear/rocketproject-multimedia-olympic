@@ -63,3 +63,25 @@ document.addEventListener('keydown', function (event) {
         athlete.style.backgroundImage = "url('https://media.discordapp.net/attachments/871977129376616459/894723788846030878/ezgif.com-gif-maker.gif')";
     }
 });
+
+document.addEventListener("scroll", function() {
+	if (scroller.scrollLeft >= barrier_2.offsetLeft - barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth) {
+		athlete.style.bottom = "8rem";
+	}
+	else {
+		athlete.style.bottom = "1.5rem";
+	}
+	if (scroller.scrollLeft >= barrier_2.offsetLeft + barrier_2.offsetWidth + barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth) {
+		athlete.style.bottom = "1.5rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_3.offsetLeft - barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
+		athlete.style.bottom = "8rem";
+	}
+	else {
+		athlete.style.bottom = "2.5rem";
+	}
+	if (scroller.scrollLeft >= barrier_3.offsetLeft + barrier_3.offsetWidth + barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
+		athlete.style.bottom = "2.5rem";
+	}
+});
