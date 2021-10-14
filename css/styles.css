@@ -80,7 +80,7 @@ footer {
   position: fixed;
   z-index: 1;
   transition: 1s;
-  background-color: red;
+  background-color: grey;
 }
 
 footer[data-footerseason="main"] {
@@ -127,6 +127,16 @@ section {
   padding: 0 5rem 5rem;
 }
 /****************************** Slider & Section ******************************/
+
+/****************************** Data-Set-background ******************************/
+#home[data-home="home"] {
+  background-image: url(/img/background/big-city.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+/****************************** Data-Set-background ******************************/
+
 
 /****************************** Grid ******************************/
 .grid {
@@ -179,12 +189,15 @@ section {
 
 /****************************** Barrier ******************************/
 .barrier {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   bottom: 1.5rem;
   position: absolute;
   z-index: 3;
-  background-image: url("https://png1.12png.com/t/19/14/2/TFvxM467mS/post-fence-hurdle-traffic-barrier-parallel.jpg");
+  background-image: url("/img/barrier/barrier.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .barrier[data-barrier="1"] {

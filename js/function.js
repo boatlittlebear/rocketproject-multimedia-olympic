@@ -3,13 +3,13 @@ let scroller = document.querySelector("#slider");
 const output = document.querySelector("#output");
 
 scroller.addEventListener("scroll", event => {
-  output.textContent = `scrollLeft: ${barrier_2.offsetLeft + barrier_2.offsetWidth + barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth}`;
+  output.textContent = `scrollLeft: ${scroller.scrollLeft}`;
 });
 
 
 scroller.addEventListener("scroll", event => {
 	if (scroller.scrollLeft >= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2) {
-		athlete.style.bottom = "11rem";
+		athlete.style.bottom = "8rem";
 	}
 	else {
 		athlete.style.bottom = "1.5rem";
@@ -21,7 +21,7 @@ scroller.addEventListener("scroll", event => {
 
 scroller.addEventListener("scroll", event => {
 	if (scroller.scrollLeft >= barrier_2.offsetLeft - barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth) {
-		athlete.style.bottom = "11rem";
+		athlete.style.bottom = "8rem";
 	}
 	else {
 		athlete.style.bottom = "1.5rem";
@@ -33,7 +33,7 @@ scroller.addEventListener("scroll", event => {
 
 scroller.addEventListener("scroll", event => {
 	if (scroller.scrollLeft >= barrier_3.offsetLeft - barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
-		athlete.style.bottom = "11rem";
+		athlete.style.bottom = "8rem";
 	}
 	else {
 		athlete.style.bottom = "1.5rem";
