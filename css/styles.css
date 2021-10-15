@@ -191,7 +191,9 @@ section {
 }
 
 #page1[data-season="w-1924"] {
-  background: hsl(200, 100%, 45%);
+  background-image: url("/img/landmark/france.png");
+  background-size: 100%;
+  background-position: 0px 300px;
 }
 
 #page2[data-season="r-1924"] {
