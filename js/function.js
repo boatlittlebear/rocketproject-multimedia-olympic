@@ -96,7 +96,18 @@ var summerDescription = [
 	<br>โดยประธานคณะกรรมการโอลิมปิกสากลได้ปรึกษาหารือกับขินโซะ อาเบะ นายกรัฐมนครีประเทศญี่ปุ่น
 	<br>ก่อนจะตัดสินใจร่วมกันในการเลื่อนการแข่งขันโอลิมปิกฤดูร้อนออกไปในปี พ.ศ. 2564 (หลังสถานการณ์ โควิด-19 ดีขึ้น)` //เหตุการณ์สำคัญ
 ]
-
+var summerImage = [
+    `/img/logo/s-1896.webp`,
+	`/img/flag/greece.svg`,
+	`/img/logo/s-1900.webp`,
+	`/img/flag/france.svg`,
+	`/img/logo/s-1948.png`,
+	`/img/flag/london.svg`,
+	`/img/logo/s-2000.webp`,
+	`/img/flag/australia.svg`,
+	`/img/logo/s-2020.webp`,
+	`/img/flag/japan.svg`
+]
 
 var winterHost = [
     `1924 ซาโมนิก ฝรั่งเศส`, //ปี
@@ -140,6 +151,19 @@ var winterDescription = [
 	<br>แต่ให้ผู้ชมภายในประเทศเข้ารับชมได้ผ่านการคัดกรองตามมาตรการ โควิด-19 อย่างเคร่งครัดเพื่อไม่ให้เกิดการระบาดของ โควิด-19 ขึ้นมาอีก`, //เหตุการณ์สำคัญ
 ]
 
+var winterImage = [
+    `/img/logo/w-1924.webp`,
+	`/img/flag/france.svg`,
+	`/img/logo/w-1936.png`,
+	`/img/flag/germany.svg`,
+	`/img/logo/w-1948.webp`,
+	`/img/flag/switzerland.svg`,
+	`/img/logo/w-1984.webp`,
+	`/img/flag/yugoslavia.svg`,
+	`/img/logo/w-2022.png`,
+	`/img/flag/china.svg`
+]
+
 
 function summer() {
 	main.dataset.main = "summer";
@@ -149,12 +173,15 @@ function summer() {
 	description1.dataset.description = "s-1896";
 	header1.innerHTML = summerHost[0];
 	description1.innerHTML = summerDescription[0];
+	image1.src =  summerImage[0];
 
-	page2.dataset.season = "h-1896";
-	header2.dataset.header = "h-1896";
-	description2.dataset.description = "h-1896";
+
+	page2.dataset.season = "r-1896";
+	header2.dataset.header = "r-1896";
+	description2.dataset.description = "r-1896";
 	header2.innerHTML = summerHost[1];
 	description2.innerHTML = summerDescription[1];
+	image2.src =  summerImage[1];
 	
 
 	page3.dataset.season = "s-1900";
@@ -162,13 +189,15 @@ function summer() {
 	description3.dataset.description = "s-1900";
 	header3.innerHTML = summerHost[2];
 	description3.innerHTML = summerDescription[2];
+	image3.src =  summerImage[2];
 	
 
-	page4.dataset.season = "h-1900";
-	header4.dataset.header = "h-1900";
-	description4.dataset.description = "h-1900";
+	page4.dataset.season = "r-1900";
+	header4.dataset.header = "r-1900";
+	description4.dataset.description = "r-1900";
 	header4.innerHTML = summerHost[3];
 	description4.innerHTML = summerDescription[3];
+	image4.src =  summerImage[3];
 	
 
 	page5.dataset.season = "s-1948";
@@ -176,13 +205,15 @@ function summer() {
 	description5.dataset.description = "s-1948";
 	header5.innerHTML = summerHost[4];
 	description5.innerHTML = summerDescription[4];
+	image5.src =  summerImage[4];
 	
 
-	page6.dataset.season = "h-1948";
-	header6.dataset.header = "h-1948";
-	description6.dataset.description = "h-1948";
+	page6.dataset.season = "r-1948";
+	header6.dataset.header = "r-1948";
+	description6.dataset.description = "r-1948";
 	header6.innerHTML = summerHost[5];
 	description6.innerHTML = summerDescription[5];
+	image6.src =  summerImage[5];
 	
 
 	page7.dataset.season = "s-2000";
@@ -190,13 +221,15 @@ function summer() {
 	description7.dataset.description = "s-2000";
 	header7.innerHTML = summerHost[6];
 	description7.innerHTML = summerDescription[6];
+	image7.src =  summerImage[6];
 	
 
-	page8.dataset.season = "h-2000";
-	header8.dataset.header = "h-2000";
-	description8.dataset.description = "h-2000";
+	page8.dataset.season = "r-2000";
+	header8.dataset.header = "r-2000";
+	description8.dataset.description = "r-2000";
 	header8.innerHTML = summerHost[7];
 	description8.innerHTML = summerDescription[7];
+	image8.src =  summerImage[7];
 	
 
 	page9.dataset.season = "s-2020";
@@ -204,85 +237,97 @@ function summer() {
 	description9.dataset.description = "s-2020";
 	header9.innerHTML = summerHost[8];
 	description9.innerHTML = summerDescription[8];
+	image9.src =  summerImage[8];
 	
 	
-	page10.dataset.season = "h-2020";
-	header10.dataset.header = "h-2020";
-	description10.dataset.description = "h-2020";
+	page10.dataset.season = "r-2020";
+	header10.dataset.header = "r-2020";
+	description10.dataset.description = "r-2020";
 	header10.innerHTML = summerHost[9];
 	description10.innerHTML = summerDescription[9];
+	image10.src =  summerImage[9];
 	
 }
 
 function winter() {
 	main.dataset.main = "winter";
 	
-	page1.dataset.season = "s-1896";
-	header1.dataset.header = "s-1896";
-	description1.dataset.description = "s-1896";
+	page1.dataset.season = "w-1924";
+	header1.dataset.header = "w-1924";
+	description1.dataset.description = "w-1924";
 	header1.innerHTML = winterHost[0];
 	description1.innerHTML = winterDescription[0];
+	image1.src =  winterImage[0];
 
-	page2.dataset.season = "h-1896";
-	header2.dataset.header = "h-1896";
-	description2.dataset.description = "h-1896";
+	page2.dataset.season = "r-1924";
+	header2.dataset.header = "r-1924";
+	description2.dataset.description = "r-1924";
 	header2.innerHTML = winterHost[1];
 	description2.innerHTML = winterDescription[1];
+	image2.src =  winterImage[1];
 	
 
-	page3.dataset.season = "s-1900";
-	header3.dataset.header = "s-1900";
-	description3.dataset.description = "s-1900";
+	page3.dataset.season = "w-1936";
+	header3.dataset.header = "w-1936";
+	description3.dataset.description = "w-1936";
 	header3.innerHTML = winterHost[2];
 	description3.innerHTML = winterDescription[2];
+	image3.src =  winterImage[2];
 	
 
-	page4.dataset.season = "h-1900";
-	header4.dataset.header = "h-1900";
-	description4.dataset.description = "h-1900";
+	page4.dataset.season = "r-1936";
+	header4.dataset.header = "r-1936";
+	description4.dataset.description = "r-1936";
 	header4.innerHTML = winterHost[3];
 	description4.innerHTML = winterDescription[3];
+	image4.src =  winterImage[3];
 	
 
-	page5.dataset.season = "s-1948";
-	header5.dataset.header = "s-1948";
-	description5.dataset.description = "s-1948";
+	page5.dataset.season = "w-1948";
+	header5.dataset.header = "w-1948";
+	description5.dataset.description = "w-1948";
 	header5.innerHTML = winterHost[4];
 	description5.innerHTML = winterDescription[4];
+	image5.src =  winterImage[4];
 	
 
-	page6.dataset.season = "h-1948";
-	header6.dataset.header = "h-1948";
-	description6.dataset.description = "h-1948";
+	page6.dataset.season = "d-1948";
+	header6.dataset.header = "d-1948";
+	description6.dataset.description = "d-1948";
 	header6.innerHTML = winterHost[5];
 	description6.innerHTML = winterDescription[5];
+	image6.src =  winterImage[5];
 	
 
-	page7.dataset.season = "s-2000";
-	header7.dataset.header = "s-2000";
-	description7.dataset.description = "s-2000";
+	page7.dataset.season = "w-1984";
+	header7.dataset.header = "w-1984";
+	description7.dataset.description = "w-1984";
 	header7.innerHTML = winterHost[6];
 	description7.innerHTML = winterDescription[6];
+	image7.src =  winterImage[6];
 	
 
-	page8.dataset.season = "h-2000";
-	header8.dataset.header = "h-2000";
-	description8.dataset.description = "h-2000";
+	page8.dataset.season = "r-1984";
+	header8.dataset.header = "r-1984";
+	description8.dataset.description = "r-1984";
 	header8.innerHTML = winterHost[7];
 	description8.innerHTML = winterDescription[7];
+	image8.src =  winterImage[7];
 	
 
-	page9.dataset.season = "s-2020";
-	header9.dataset.header = "s-2020";
-	description9.dataset.description = "s-2020";
+	page9.dataset.season = "w-2022";
+	header9.dataset.header = "w-2022";
+	description9.dataset.description = "w-2022";
 	header9.innerHTML = winterHost[8];
 	description9.innerHTML = winterDescription[8];
+	image9.src =  winterImage[8];
 	
 	
-	page10.dataset.season = "h-2020";
-	header10.dataset.header = "h-2020";
-	description10.dataset.description = "h-2020";
+	page10.dataset.season = "r-2022";
+	header10.dataset.header = "r-2022";
+	description10.dataset.description = "r-2022";
 	header10.innerHTML = winterHost[9];
 	description10.innerHTML = winterDescription[9];
+	image10.src =  winterImage[9];
 	
 }

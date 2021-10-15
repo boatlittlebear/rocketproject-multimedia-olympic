@@ -40,9 +40,9 @@ body {
 .header {
   width: 100%;
   text-align: left;
-	font-size: 50px;
-	font-weight: bold;
-	color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .left {
@@ -57,6 +57,7 @@ body {
   padding: 1rem;
   background-color: rgba(17, 17, 17, 0.5);
 }
+
 /****************************** Extension ******************************/
 
 .logo {
@@ -147,7 +148,7 @@ section {
   background: hsl(0, 100%, 45%);
 }
 
-#page2[data-season="h-1896"] {
+#page2[data-season="r-1896"] {
   background: hsl(0, 100%, 40%);
 }
 
@@ -155,7 +156,7 @@ section {
   background: hsl(0, 100%, 35%);
 }
 
-#page4[data-season="h-1900"] {
+#page4[data-season="r-1900"] {
   background: hsl(0, 100%, 30%);
 }
 
@@ -163,7 +164,7 @@ section {
   background: hsl(0, 100%, 25%);
 }
 
-#page6[data-season="h-1948"] {
+#page6[data-season="r-1948"] {
   background: hsl(0, 100%, 20%);
 }
 
@@ -171,7 +172,7 @@ section {
   background: hsl(0, 100%, 15%);
 }
 
-#page8[data-season="h-2000"] {
+#page8[data-season="r-2000"] {
   background: hsl(0, 100%, 10%);
 }
 
@@ -179,7 +180,7 @@ section {
   background: hsl(0, 100%, 5%);
 }
 
-#page10[data-season="h-2020"] {
+#page10[data-season="r-2020"] {
   background: hsl(0, 100%, 0%);
 }
 /****************************** Summer ******************************/
@@ -189,43 +190,43 @@ section {
   background: hsl(200, 100%, 50%);
 }
 
-#page1[data-season="s-1896"] {
+#page1[data-season="w-1924"] {
   background: hsl(200, 100%, 45%);
 }
 
-#page2[data-season="h-1896"] {
+#page2[data-season="r-1924"] {
   background: hsl(200, 100%, 40%);
 }
 
-#page3[data-season="s-1900"] {
+#page3[data-season="w-1936"] {
   background: hsl(200, 100%, 35%);
 }
 
-#page4[data-season="h-1900"] {
+#page4[data-season="r-1936"] {
   background: hsl(200, 100%, 30%);
 }
 
-#page5[data-season="s-1948"] {
+#page5[data-season="w-1948"] {
   background: hsl(200, 100%, 25%);
 }
 
-#page6[data-season="h-1948"] {
+#page6[data-season="d-1948"] {
   background: hsl(200, 100%, 20%);
 }
 
-#page7[data-season="s-2000"] {
+#page7[data-season="w-1984"] {
   background: hsl(200, 100%, 15%);
 }
 
-#page8[data-season="h-2000"] {
+#page8[data-season="r-1984"] {
   background: hsl(200, 100%, 10%);
 }
 
-#page9[data-season="s-2020"] {
+#page9[data-season="w-2022"] {
   background: hsl(200, 100%, 5%);
 }
 
-#page10[data-season="h-2020"] {
+#page10[data-season="r-2022"] {
   background: hsl(200, 100%, 0%);
 }
 /****************************** Winter ******************************/
@@ -237,11 +238,7 @@ section {
 .grid {
 	display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 1rem;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
+  grid-gap: 2rem;
 }
 
 .column-3 {
