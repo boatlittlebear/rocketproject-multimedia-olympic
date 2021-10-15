@@ -459,5 +459,14 @@ function winter() {
 	header10.innerHTML = winterHost[9];
 	description10.innerHTML = winterDescription[9];
 	image10.src =  winterImage[9];
-	
+}
+
+function change() {
+	var change = document.getElementById("change");
+	if (change.checked == true) {
+		winter();
+	}
+	else {
+		summer();
+	}
 }
