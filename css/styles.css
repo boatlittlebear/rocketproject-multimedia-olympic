@@ -332,7 +332,7 @@ section {
 /****************************** Sand ******************************/
 .sand {
   width: 300px;
-  height: 300px;
+  height: 100px;
   bottom: 1rem;
   position: absolute;
   z-index: 3;
