@@ -145,28 +145,36 @@ section {
 }
 
 #page1[data-season="s-1896"] {
+  background-image: url(/background/กรีซ.png);
+  background-position: bottom 60px center ;
 
 
 }
 
 #page2[data-season="r-1896"] {
-  background: hsl(0, 100%, 40%);
+  background-image: url(/background/กรีซ2.png);
+  background-position:bottom 60px center ;
 }
 
 #page3[data-season="s-1900"] {
-  background: hsl(0, 100%, 35%);
+  background-image: url(/background/ฝรั่งเศส.png);
+  background-position:bottom 45px center ;
 }
 
 #page4[data-season="r-1900"] {
-  background: hsl(0, 100%, 30%);
+  background-image: url(/background/ฝรั่งเศส2.png);
+  background-position:bottom 45px center ;
 }
 
+
 #page5[data-season="s-1948"] {
-  background: hsl(0, 100%, 25%);
+  background-image: url(/background/ลอนดอน.png);
+  background-position:bottom 45px center ;
 }
 
 #page6[data-season="r-1948"] {
-  background: hsl(0, 100%, 20%);
+  background-image: url(/background/ลอนดอน2.png);
+  background-position:bottom 45px center ;
 }
 
 #page7[data-season="s-2000"] {
@@ -178,7 +186,9 @@ section {
 }
 
 #page9[data-season="s-2020"] {
-  background: hsl(0, 100%, 5%);
+  background-image: url(/background/ญี่ปุ่น.png);
+  background-size: 1100px 619px;
+  background-position:bottom 95px center ;
 }
 
 #page10[data-season="r-2020"] {
@@ -192,29 +202,35 @@ section {
 }
 
 #page1[data-season="w-1924"] {
-  background-image: url("/img/landmark/france.png");
-  background-size: 100%;
-  background-position: 0px 300px;
+  background-image: url(/background/ฝรั่งเศส.png);
+  background-position:bottom 45px center ;
 }
 
 #page2[data-season="r-1924"] {
-  background: hsl(200, 100%, 40%);
+  background-image: url(/background/ฝรั่งเศส2.png);
+  background-position:bottom 45px center ;
 }
 
 #page3[data-season="w-1936"] {
-  background: hsl(200, 100%, 35%);
+  background-image: url(/background/เยอรมัน.png);
+  background-size: 1200px 645px;
+  background-position:bottom 95px center ;
 }
-
 #page4[data-season="r-1936"] {
-  background: hsl(200, 100%, 30%);
+  background-image: url(/background/เยอรมัน.png);
+  background-position:bottom 45px center ;
 }
 
 #page5[data-season="w-1948"] {
-  background: hsl(200, 100%, 25%);
+  background-image: url(/background/ซวิต.png);
+  background-size: 900px 506px;
+  background-position:bottom 90px center ;
 }
 
 #page6[data-season="d-1948"] {
-  background: hsl(200, 100%, 20%);
+  background-image: url(/background/ซวิต2.png);
+  background-size: 900px 506px;
+  background-position:bottom 90px center ;
 }
 
 #page7[data-season="w-1984"] {
@@ -226,11 +242,15 @@ section {
 }
 
 #page9[data-season="w-2022"] {
-  background: hsl(200, 100%, 5%);
+  background-image: url(/background/จีนปักกิ่ง.png);
+  background-size: 1368px 788px;
+  background-position:bottom  center ;
 }
 
 #page10[data-season="r-2022"] {
-  background: hsl(200, 100%, 0%);
+  background-image: url(/background/จีนปักกิ่ง2.png);
+  background-size: 1368px 788px;
+  background-position:bottom  center ;
 }
 /****************************** Winter ******************************/
 
