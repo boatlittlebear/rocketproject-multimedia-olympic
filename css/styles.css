@@ -109,7 +109,7 @@ footer[data-footerseason="winter"] {
   position: absolute;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/886628120113844254/image2_1.gif");
   transition: .1s;
-  z-index: 2;
+  z-index: 5;
 }
 /****************************** Footer ******************************/
 
@@ -288,7 +288,7 @@ section {
   bottom: 1rem;
   position: absolute;
   z-index: 3;
-  background-image: url("https://cdn.discordapp.com/attachments/871977129376616459/898774065509204039/85f3d5b5ac5c90b5.PNG");
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898787099321458698/2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -316,7 +316,7 @@ section {
   height: 70px;
   bottom: 1rem;
   position: absolute;
-  z-index: 2000;
+  z-index: 2;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
   background-repeat: no-repeat;
   background-position: center;
@@ -328,6 +328,22 @@ section {
 }
 
 /****************************** Cone ******************************/
+
+/****************************** Sand ******************************/
+.sand {
+  width: 300px;
+  height: 300px;
+  bottom: 1rem;
+  position: absolute;
+  z-index: 3;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/****************************** Sand ******************************/
+
 
 /****************************** Change Season ******************************/
 input[type=checkbox]{
