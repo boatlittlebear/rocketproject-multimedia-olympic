@@ -291,7 +291,7 @@ section {
   background-image: url("https://cdn.discordapp.com/attachments/871977129376616459/898774065509204039/85f3d5b5ac5c90b5.PNG");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 
@@ -306,7 +306,28 @@ section {
 .barrier[data-barrier="3"] {
   left: 20rem;
 }
+
+
 /****************************** Barrier ******************************/
+
+/****************************** Cone ******************************/
+.cone {
+  width: 70px;
+  height: 70px;
+  bottom: 1rem;
+  position: absolute;
+  z-index: 2000;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cone[data-cone="1"] {
+  left: 20rem;
+}
+
+/****************************** Cone ******************************/
 
 /****************************** Change Season ******************************/
 input[type=checkbox]{
