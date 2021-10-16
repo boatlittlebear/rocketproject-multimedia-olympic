@@ -344,6 +344,21 @@ section {
 
 /****************************** Sand ******************************/
 
+/****************************** Ball ******************************/
+.ball {
+  width: 100px;
+  height: 100px;
+  bottom: 1rem;
+  position: absolute;
+  z-index: 3;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/****************************** Ball ******************************/
+
 
 /****************************** Change Season ******************************/
 input[type=checkbox]{
