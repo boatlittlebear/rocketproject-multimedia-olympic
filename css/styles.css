@@ -76,19 +76,35 @@ body {
   z-index: 3;
 }
 
+/****************************** Background ******************************/
+.building {
+  width: 100%;
+	height: calc(100vh - 6rem);
+  background-image: url(/img/background/landmark.png);
+  background-position: bottom;
+  background-size: 100%;
+  z-index: -1;
+  position: absolute;
+  background-repeat: repeat-x;
+  background-position-x: calc(var(--left) * -.1px);
+  filter: blur(2px);
+}
+/****************************** Background ******************************/
+
+
 /****************************** Footer ******************************/
 footer {
   width: 100%;
   height: 6rem;
   bottom: 0;
+  z-index: 3;
   position: absolute;
-  z-index: 1;
   background-repeat: repeat-x;
   background-position-x: calc(var(--left) * -1px);
 }
 
 footer[data-footerseason="track"] {
-  background-image: url("/img/footer/track.png");
+  background-image: url("/img/footer/run-track.png");
 }
 
 footer[data-footerseason="summer"] {
@@ -102,14 +118,14 @@ footer[data-footerseason="winter"] {
 .athlete {
   width: 203.5px;
   height: 240px;
-  bottom: 2.5rem;
+  bottom: 3rem;
   margin: auto;
   left: 0;
   right: 0;
   position: absolute;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/886628120113844254/image2_1.gif");
   transition: .1s;
-  z-index: 5;
+  z-index: 1;
 }
 /****************************** Footer ******************************/
 
@@ -119,10 +135,8 @@ footer[data-footerseason="winter"] {
 	/*scroll-snap-type: x mandatory;*/
 	display: flex;
 	overflow-x: scroll;
-  background-image: url(/img/background/building.png);
+  background-size: cover calc(100vh - 6rem);
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
 }
 
 section {
@@ -132,7 +146,7 @@ section {
 	text-align: center;
 	position: relative;
   transition: 1s;
-  padding: 0 5rem 5rem;
+  padding: 0 6rem 6rem;
 }
 /****************************** Slider & Section ******************************/
 
@@ -140,57 +154,75 @@ section {
 
 /****************************** Summer ******************************/
 #main[data-main="summer"] {
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898942454114439168/realistic-soccer-football-stadium-illustration_52683-60376.png");
-  /* ใส่รูป */
+  background-image: url(/img/background/landmark.png);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page1[data-season="s-1896"] {
-  background-image: url(/background/กรีซ.png);
-  background-position: bottom 60px center ;
+  background-image: url(/img/landmark/greece.png);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page2[data-season="r-1896"] {
-  background-image: url(/background/กรีซ2.png);
-  background-position:bottom 60px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page3[data-season="s-1900"] {
-  background-image: url(/background/ฝรั่งเศส.png);
-  background-position:bottom 45px center ;
+  background-image: url(/img/landmark/france.png);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page4[data-season="r-1900"] {
-  background-image: url(/background/ฝรั่งเศส2.png);
-  background-position:bottom 45px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
-
 #page5[data-season="s-1948"] {
-  background-image: url(/background/ลอนดอน.png);
-  background-position:bottom 45px center ;
+  background-image: url(/img/landmark/italy.png);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page6[data-season="r-1948"] {
-  background-image: url(/background/ลอนดอน2.png);
-  background-position:bottom 45px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page7[data-season="s-2000"] {
-  background: hsl(0, 100%, 15%);
+  background-image: url(/img/landmark/australia.png);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page8[data-season="r-2000"] {
-  background: hsl(0, 100%, 10%);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page9[data-season="s-2020"] {
   background-image: url(/background/ญี่ปุ่น.png);
-  background-size: 1100px 619px;
-  background-position:bottom 95px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page10[data-season="r-2020"] {
-  background: hsl(0, 100%, 0%);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 /****************************** Summer ******************************/
 
@@ -200,55 +232,67 @@ section {
 }
 
 #page1[data-season="w-1924"] {
-  background-image: url(/background/ฝรั่งเศส.png);
-  background-position:bottom 45px center ;
+  background-image: url(/background/ฝรั่งเศส2.png);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page2[data-season="r-1924"] {
-  background-image: url(/background/ฝรั่งเศส2.png);
-  background-position:bottom 45px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page3[data-season="w-1936"] {
   background-image: url(/background/เยอรมัน.png);
-  background-size: 1200px 645px;
-  background-position:bottom 95px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 #page4[data-season="r-1936"] {
-  background-image: url(/background/เยอรมัน.png);
-  background-position:bottom 45px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page5[data-season="w-1948"] {
   background-image: url(/background/ซวิต.png);
-  background-size: 900px 506px;
-  background-position:bottom 90px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page6[data-season="d-1948"] {
-  background-image: url(/background/ซวิต2.png);
-  background-size: 900px 506px;
-  background-position:bottom 90px center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page7[data-season="w-1984"] {
   background: hsl(200, 100%, 15%);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page8[data-season="r-1984"] {
-  background: hsl(200, 100%, 10%);
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page9[data-season="w-2022"] {
   background-image: url(/background/จีนปักกิ่ง.png);
-  background-size: 1368px 788px;
-  background-position:bottom  center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 
 #page10[data-season="r-2022"] {
-  background-image: url(/background/จีนปักกิ่ง2.png);
-  background-size: 1368px 788px;
-  background-position:bottom  center ;
+  background-origin: content-box;
+  background-position: bottom;
+  background-size: 100%;
 }
 /****************************** Winter ******************************/
 
@@ -316,9 +360,9 @@ section {
 .barrier {
   width: 100px;
   height: 100px;
-  bottom: 1rem;
+  bottom: 2rem;
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898787099321458698/2.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -340,7 +384,6 @@ section {
 
 .barrier[data-barrier="4"] {
   left: 15rem;
-
 }
 /****************************** Barrier ******************************/
 
@@ -399,7 +442,7 @@ label:active:after {
   position: fixed;
   z-index: 1;
   overflow: hidden;
-  animation: cloud 20s linear infinite;
+  animation: cloud 60s linear infinite;
 }
 
 .cloud[data-cloud="1"] {
@@ -474,12 +517,13 @@ label:active:after {
   height: 100%;
   width: 100px;
   background: #000;
-  z-index: 10;
+  z-index: 4;
   position: absolute;
+  bottom: 0;
 }
 
 .door[data-door="1"] {
-  left: 0;
+  left: 0rem;
 }
 
 .door[data-door="2"] {
