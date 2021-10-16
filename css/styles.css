@@ -241,6 +241,7 @@ section {
 	display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 2rem;
+  z-index: 2;
 }
 
 .column-3 {
@@ -280,6 +281,17 @@ section {
 /****************************** Grid ******************************/
 
 
+/****************************** Switch SS ******************************/
+.change {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+}
+/****************************** Switch SS ******************************/
+
+
 
 /****************************** Barrier ******************************/
 .barrier {
@@ -304,6 +316,11 @@ section {
 
 .barrier[data-barrier="3"] {
   left: 20rem;
+}
+
+.barrier[data-barrier="4"] {
+  left: 0rem;
+  background: yellow;
 }
 /****************************** Barrier ******************************/
 
@@ -350,3 +367,85 @@ label:active:after {
 	width: 130px;
 }
 /****************************** Change Season ******************************/
+
+/****************************** Cloud ******************************/
+.cloud {
+  width: 200px;
+  height: 100px;
+  background-image: url("/img/background/cloud.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  animation: cloud 20s linear infinite;
+}
+
+.cloud[data-cloud="1"] {
+  margin: 0 0 35rem;
+  transform: scale(2.5);
+}
+
+.cloud[data-cloud="2"] {
+  margin: 0 0 25rem 65rem;
+  transform: scale(2.5);
+}
+
+.cloud[data-cloud="3"] {
+  margin: 0 55rem 15rem 0;
+  transform: scale(2);
+}
+
+.cloud[data-cloud="4"] {
+  margin: 0 0 48rem 45rem;
+  transform: scale(1.5);
+}
+
+.cloud[data-cloud="5"] {
+  margin: 0 0 38rem 50rem;
+  transform: scale(.75);
+}
+
+.cloud[data-cloud="6"] {
+  margin: 0 0 10rem 40rem;
+  transform: scale(.5);
+}
+
+.cloud[data-cloud="7"] {
+  margin: 0 0 20rem 15rem;
+  transform: scale(.75);
+}
+
+.cloud[data-cloud="8"] {
+  margin: 0 10rem 15rem 0;
+  transform: scale(.5);
+}
+
+.cloud[data-cloud="9"] {
+  margin: 0 30rem 22rem 0;
+  transform: scale(.75);
+}
+
+.cloud[data-cloud="10"] {
+  margin: 0 45rem 28rem 0;
+  transform: scale(.75);
+}
+
+.cloud[data-cloud="11"] {
+  margin: 0 37rem 40rem 0;
+  transform: scale(.75);
+}
+
+.cloud[data-cloud="12"] {
+  margin: 0 55rem 38rem 0;
+  transform: scale(.5);
+}
+
+
+@keyframes cloud {
+  from {right: -50%;}
+  to {right: 150%;}  
+}
+/****************************** Cloud ******************************/
+

@@ -37,6 +37,13 @@ scroller.onscroll = function() {
 	if (scroller.scrollLeft >= barrier_3.offsetLeft + barrier_3.offsetWidth + barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
 		athlete.style.bottom = "2.5rem";
 	}
+
+	if (scroller.scrollLeft >= barrier_4.offsetLeft - barrier_4.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
+		athlete.style.bottom = "8rem";
+	}
+	if (scroller.scrollLeft >= barrier_4.offsetLeft + barrier_4.offsetWidth + barrier_4.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
+		athlete.style.bottom = "2.5rem";
+	}
 }
 
 
