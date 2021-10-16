@@ -357,6 +357,10 @@ section {
   background-size: contain;
 }
 
+.ball[data-ball="1"] {
+  left: 20rem;
+}
+
 /****************************** Ball ******************************/
 
 
