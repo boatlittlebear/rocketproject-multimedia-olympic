@@ -453,6 +453,17 @@ section {
   
 }
 
+.barrier[data-barrier="26"] {
+  width: 500px;
+  left: 5rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
+}
+
+.barrier[data-barrier="27"] {
+  right: 10rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+}
+
 
 
 /****************************** Barrier ******************************/
