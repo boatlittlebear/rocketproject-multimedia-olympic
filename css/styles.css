@@ -309,21 +309,151 @@ section {
 
 
 .barrier[data-barrier="1"] {
-  right: 9rem;
+  left: 20rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="2"] {
-  right: 9rem;
+  right: 10rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="3"] {
   left: 20rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="4"] {
-  left: 0rem;
-  background-color: yellowgreen;
+  left: 55%;
+  right: 50%;
 }
+
+.barrier[data-barrier="5"] {
+  right: 0rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
+  
+}
+.barrier[data-barrier="6"] {
+  left: 20rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
+}
+
+.barrier[data-barrier="7"] {
+  left: 55%;
+  right: 50%;
+}
+
+.barrier[data-barrier="8"] {
+  right: 0rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
+  
+}
+.barrier[data-barrier="9"] {
+  left: 20rem;
+ 
+}
+
+.barrier[data-barrier="10"] {
+  left: 50%;
+  right: 50%;
+  background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG');
+ 
+  
+}
+
+.barrier[data-barrier="11"] {
+  width: 500px;
+  right: 0rem;
+  background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG');
+  
+}
+
+.barrier[data-barrier="12"] {
+  left: 20rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
+}
+
+.barrier[data-barrier="13"] {
+  left: 50%;
+  right: 50%;
+  
+ 
+  
+}
+
+.barrier[data-barrier="14"] {
+  width: 500px;
+  right: 0rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
+  
+}
+
+.barrier[data-barrier="15"] {
+  left: 20rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
+}
+
+.barrier[data-barrier="16"] {
+  right: 10rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+}
+
+.barrier[data-barrier="17"] {
+  left: 20rem;
+  width: 500px;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
+}
+
+.barrier[data-barrier="18"] {
+  left: 50%;
+  right: 50%;
+  
+ 
+  
+}
+
+.barrier[data-barrier="19"] {
+  
+  right: 0rem;
+ 
+  
+}
+.barrier[data-barrier="20"] {
+  left: 20rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+}
+
+.barrier[data-barrier="21"] {
+  left: 50%;
+  right: 50%;
+  
+ 
+  
+}
+
+.barrier[data-barrier="22"] {
+  right: 20rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+  
+}
+.barrier[data-barrier="23"] {
+  width: 500px;
+  left: 5rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
+}
+
+.barrier[data-barrier="24"] {
+  left: 50%;
+  right: 50%;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+}
+
+.barrier[data-barrier="25"] {
+  right: 10rem;
+  
+}
+
+
 
 /****************************** Barrier ******************************/
 
