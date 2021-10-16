@@ -116,7 +116,7 @@ footer[data-footerseason="winter"] {
 /****************************** Slider & Section ******************************/
 .slider {
 	font-family: sans-serif;
-	scroll-snap-type: x mandatory;
+	/*scroll-snap-type: x mandatory;*/
 	display: flex;
 	overflow-x: scroll;
   background-image: url(/img/background/building.png);
