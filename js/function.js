@@ -16,33 +16,35 @@ document.addEventListener('keydown', function (event) {
 });
 
 scroller.onscroll = function() {
-	if (scroller.scrollLeft <= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2) {
-		athlete.style.bottom = "2.5rem";
-	}
-	if (scroller.scrollLeft >= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2) {
-		athlete.style.bottom = "8rem";
-	}
-	if (scroller.scrollLeft >= barrier_1.offsetLeft + barrier_1.offsetWidth + barrier_1.offsetWidth/2 - window.innerWidth/2) {
-		athlete.style.bottom = "2.5rem";
-	}
-	if (scroller.scrollLeft >= barrier_2.offsetLeft - barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth) {
-		athlete.style.bottom = "8rem";
-	}
-	if (scroller.scrollLeft >= barrier_2.offsetLeft + barrier_2.offsetWidth + barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth) {
-		athlete.style.bottom = "2.5rem";
-	}
-	if (scroller.scrollLeft >= barrier_3.offsetLeft - barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
-		athlete.style.bottom = "8rem";
-	}
-	if (scroller.scrollLeft >= barrier_3.offsetLeft + barrier_3.offsetWidth + barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
-		athlete.style.bottom = "2.5rem";
+	if (scroller.scrollLeft <= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
+        athlete.style.bottom = "2.5rem";
+    }
+    if (scroller.scrollLeft >= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 3) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_1.offsetLeft + barrier_1.offsetWidth + barrier_1.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
+        athlete.style.bottom = "2.5rem";
+    }
+
+	if (scroller.scrollLeft >= barrier_2.offsetLeft - barrier_2.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 4) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_2.offsetLeft + barrier_2.offsetWidth + barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
+        athlete.style.bottom = "2.5rem";
 	}
 
-	if (scroller.scrollLeft >= barrier_4.offsetLeft - barrier_4.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
-		athlete.style.bottom = "8rem";
+	if (scroller.scrollLeft >= barrier_3.offsetLeft - barrier_3.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 4) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_3.offsetLeft + barrier_3.offsetWidth + barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
+        athlete.style.bottom = "2.5rem";
 	}
-	if (scroller.scrollLeft >= barrier_4.offsetLeft + barrier_4.offsetWidth + barrier_4.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
-		athlete.style.bottom = "2.5rem";
+
+	if (scroller.scrollLeft >= barrier_4.offsetLeft - barrier_4.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 5) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_4.offsetLeft + barrier_4.offsetWidth + barrier_4.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 4) {
+        athlete.style.bottom = "2.5rem";
 	}
 }
 

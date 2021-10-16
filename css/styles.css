@@ -140,15 +140,13 @@ section {
 
 /****************************** Summer ******************************/
 #main[data-main="summer"] {
-  background: hsl(0, 100%, 50%);
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898942454114439168/realistic-soccer-football-stadium-illustration_52683-60376.png");
   /* ใส่รูป */
 }
 
 #page1[data-season="s-1896"] {
   background-image: url(/background/กรีซ.png);
   background-position: bottom 60px center ;
-
-
 }
 
 #page2[data-season="r-1896"] {
@@ -329,83 +327,28 @@ section {
 
 
 .barrier[data-barrier="1"] {
-  right: 9rem;
+  left: 0rem;
 }
 
 .barrier[data-barrier="2"] {
-  right: 9rem;
+  left: 9rem;
 }
 
 .barrier[data-barrier="3"] {
-  left: 20rem;
+  right: 2rem;
 }
 
 .barrier[data-barrier="4"] {
-  left: 0rem;
-  background-color: yellowgreen;
-}
+  left: 15rem;
 
+}
 /****************************** Barrier ******************************/
-
-/****************************** Cone ******************************/
-.cone {
-  width: 70px;
-  height: 70px;
-  bottom: 1rem;
-  position: absolute;
-  z-index: 2;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.cone[data-cone="1"] {
-  left: 20rem;
-}
-
-/****************************** Cone ******************************/
-
-/****************************** Sand ******************************/
-.sand {
-  width: 300px;
-  height: 100px;
-  bottom: 1rem;
-  position: absolute;
-  z-index: 3;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-}
-
-/****************************** Sand ******************************/
-
-/****************************** Ball ******************************/
-.ball {
-  width: 100px;
-  height: 100px;
-  bottom: 1rem;
-  position: absolute;
-  z-index: 3;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-}
-
-.ball[data-ball="1"] {
-  left: 20rem;
-}
-
-/****************************** Ball ******************************/
-
 
 /****************************** Change Season ******************************/
 input[type=checkbox]{
 	height: 0;
 	width: 0;
-	visibility: hidden;
+	visibility: hidden; 
 }
 
 label {
@@ -526,3 +469,19 @@ label:active:after {
 }
 /****************************** Cloud ******************************/
 
+
+.door {
+  height: 100%;
+  width: 100px;
+  background: #000;
+  z-index: 10;
+  position: absolute;
+}
+
+.door[data-door="1"] {
+  left: 0;
+}
+
+.door[data-door="2"] {
+  right: 0;
+}
