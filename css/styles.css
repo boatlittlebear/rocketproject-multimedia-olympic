@@ -17,6 +17,7 @@
 body {
 	overflow-y: hidden;
   background-image: linear-gradient(to bottom, #3DA5FA 0%, #EEF5FF 100%);
+  max-width: 1920px;
 }
 
 /****************************** Extension ******************************/
@@ -97,7 +98,6 @@ footer {
   width: 100%;
   height: 6rem;
   bottom: 0;
-  z-index: 3;
   position: absolute;
   background-repeat: repeat-x;
   background-position-x: calc(var(--left) * -1px);
@@ -125,7 +125,7 @@ footer[data-footerseason="winter"] {
   position: absolute;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/886628120113844254/image2_1.gif");
   transition: .1s;
-  z-index: 1;
+  z-index: 2;
 }
 /****************************** Footer ******************************/
 
@@ -168,9 +168,10 @@ section {
 }
 
 #page2[data-season="r-1896"] {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898933584197484604/unknown.png");
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 30%;
 }
 
 #page3[data-season="s-1900"] {
@@ -362,7 +363,7 @@ section {
   height: 100px;
   bottom: 2rem;
   position: absolute;
-  z-index: 4;
+  z-index: 1;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898787099321458698/2.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -424,10 +425,11 @@ section {
 }
 
 .barrier[data-barrier="11"] {
-  width: 500px;
+  width: 400px;
   right: 0rem;
+  bottom: 1rem;
   background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG');
-  
+  background-size: 100%;
 }
 
 .barrier[data-barrier="12"] {
@@ -436,15 +438,9 @@ section {
 }
 
 .barrier[data-barrier="13"] {
-  left: 50%;
-  right: 50%;
-  
- 
-  
 }
 
 .barrier[data-barrier="14"] {
-  width: 500px;
   right: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
   
@@ -467,10 +463,6 @@ section {
 }
 
 .barrier[data-barrier="18"] {
-  left: 50%;
-  right: 50%;
-  
- 
   
 }
 
@@ -486,8 +478,6 @@ section {
 }
 
 .barrier[data-barrier="21"] {
-  left: 50%;
-  right: 50%;
   
  
   
@@ -505,8 +495,6 @@ section {
 }
 
 .barrier[data-barrier="24"] {
-  left: 50%;
-  right: 50%;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
 }
 

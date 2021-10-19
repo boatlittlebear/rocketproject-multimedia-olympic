@@ -26,10 +26,10 @@ scroller.onscroll = function() {
         athlete.style.bottom = "3rem";
     }
 
-	if (scroller.scrollLeft >= barrier_2.offsetLeft - barrier_2.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 4) {
+	if (scroller.scrollLeft >= barrier_2.offsetLeft - barrier_2.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 3) {
         athlete.style.bottom = "8rem";
     }
-    if (scroller.scrollLeft >= barrier_2.offsetLeft + barrier_2.offsetWidth + barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
+    if (scroller.scrollLeft >= barrier_2.offsetLeft + barrier_2.offsetWidth + barrier_2.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
         athlete.style.bottom = "3rem";
 	}
 
@@ -39,11 +39,157 @@ scroller.onscroll = function() {
     if (scroller.scrollLeft >= barrier_3.offsetLeft + barrier_3.offsetWidth + barrier_3.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
         athlete.style.bottom = "3rem";
 	}
-
-	if (scroller.scrollLeft >= barrier_4.offsetLeft - barrier_4.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 5) {
+	if (scroller.scrollLeft >= barrier_4.offsetLeft - barrier_4.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 4) {
         athlete.style.bottom = "8rem";
     }
-    if (scroller.scrollLeft >= barrier_4.offsetLeft + barrier_4.offsetWidth + barrier_4.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 4) {
+    if (scroller.scrollLeft >= barrier_4.offsetLeft + barrier_4.offsetWidth + barrier_4.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_5.offsetLeft - barrier_5.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 4) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_5.offsetLeft + barrier_5.offsetWidth + barrier_5.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 3) {
+        athlete.style.bottom = "3rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_6.offsetLeft - barrier_6.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 5) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_6.offsetLeft + barrier_6.offsetWidth + barrier_6.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 4) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_7.offsetLeft - barrier_7.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 5) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_7.offsetLeft + barrier_7.offsetWidth + barrier_7.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 4) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_8.offsetLeft - barrier_8.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 5) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_8.offsetLeft + barrier_8.offsetWidth + barrier_8.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 4) {
+        athlete.style.bottom = "3rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_9.offsetLeft - barrier_9.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 6) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_9.offsetLeft + barrier_9.offsetWidth + barrier_9.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 5) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_10.offsetLeft - barrier_10.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 6) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_10.offsetLeft + barrier_10.offsetWidth + barrier_10.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 5) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_11.offsetLeft - barrier_11.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 6) {
+        athlete.style.bottom = "4rem";
+    }
+    if (scroller.scrollLeft >= barrier_11.offsetLeft + barrier_11.offsetWidth + barrier_11.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 5) {
+        athlete.style.bottom = "3rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_12.offsetLeft - barrier_12.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 7) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_12.offsetLeft + barrier_12.offsetWidth + barrier_12.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 6) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_13.offsetLeft - barrier_13.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 7) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_13.offsetLeft + barrier_13.offsetWidth + barrier_13.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 6) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_14.offsetLeft - barrier_14.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 7) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_14.offsetLeft + barrier_14.offsetWidth + barrier_14.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 6) {
+        athlete.style.bottom = "3rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_15.offsetLeft - barrier_15.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 8) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_15.offsetLeft + barrier_15.offsetWidth + barrier_15.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 7) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_16.offsetLeft - barrier_16.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 8) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_16.offsetLeft + barrier_16.offsetWidth + barrier_16.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 7) {
+        athlete.style.bottom = "3rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_17.offsetLeft - barrier_17.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 9) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_17.offsetLeft + barrier_17.offsetWidth + barrier_17.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 8) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_18.offsetLeft - barrier_18.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 9) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_18.offsetLeft + barrier_18.offsetWidth + barrier_18.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 8) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_19.offsetLeft - barrier_19.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 9) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_19.offsetLeft + barrier_19.offsetWidth + barrier_19.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 8) {
+        athlete.style.bottom = "3rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_20.offsetLeft - barrier_20.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 10) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_20.offsetLeft + barrier_20.offsetWidth + barrier_20.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 9) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_21.offsetLeft - barrier_21.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 10) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_21.offsetLeft + barrier_21.offsetWidth + barrier_21.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 9) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_22.offsetLeft - barrier_22.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 10) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_22.offsetLeft + barrier_22.offsetWidth + barrier_22.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 9) {
+        athlete.style.bottom = "3rem";
+	}
+
+	
+	if (scroller.scrollLeft >= barrier_23.offsetLeft - barrier_23.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 11) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_23.offsetLeft + barrier_23.offsetWidth + barrier_23.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 10) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_24.offsetLeft - barrier_24.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 11) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_24.offsetLeft + barrier_24.offsetWidth + barrier_24.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 10) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_25.offsetLeft - barrier_25.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 11) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_25.offsetLeft + barrier_25.offsetWidth + barrier_25.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 10) {
+        athlete.style.bottom = "3rem";
+	}
+
+	if (scroller.scrollLeft >= barrier_26.offsetLeft - barrier_26.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 12) {
+        athlete.style.bottom = "4rem";
+    }
+    if (scroller.scrollLeft >= barrier_26.offsetLeft + barrier_26.offsetWidth + barrier_26.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 11) {
+        athlete.style.bottom = "3rem";
+	}
+	if (scroller.scrollLeft >= barrier_27.offsetLeft - barrier_27.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 12) {
+        athlete.style.bottom = "8rem";
+    }
+    if (scroller.scrollLeft >= barrier_27.offsetLeft + barrier_27.offsetWidth + barrier_27.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 11) {
         athlete.style.bottom = "3rem";
 	}
 }
