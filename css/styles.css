@@ -577,13 +577,13 @@ label:active:after {
 }
 
 .cloud[data-cloud="1"] {
-  margin: 0 0 35rem;
-  transform: scale(2.5);
+  margin: 0 30rem 20rem 0;
+  transform: scale(1.5);
 }
 
 .cloud[data-cloud="2"] {
-  margin: 0 0 25rem 65rem;
-  transform: scale(2.5);
+  margin: 0 20rem 10rem 0;
+  transform: scale(1.8);
 }
 
 .cloud[data-cloud="3"] {
@@ -592,12 +592,12 @@ label:active:after {
 }
 
 .cloud[data-cloud="4"] {
-  margin: 0 0 48rem 45rem;
+  margin: 0 10rem 48rem 45rem;
   transform: scale(1.5);
 }
 
 .cloud[data-cloud="5"] {
-  margin: 0 0 38rem 50rem;
+  margin: 0 15rem 35rem 50rem;
   transform: scale(.75);
 }
 
@@ -607,8 +607,8 @@ label:active:after {
 }
 
 .cloud[data-cloud="7"] {
-  margin: 0 0 20rem 15rem;
-  transform: scale(.75);
+  margin: 0 0 25rem 15rem;
+  transform: scale(1.75);
 }
 
 .cloud[data-cloud="8"] {
@@ -617,7 +617,7 @@ label:active:after {
 }
 
 .cloud[data-cloud="9"] {
-  margin: 0 30rem 22rem 0;
+  margin: 0 30rem 30rem 0;
   transform: scale(.75);
 }
 
