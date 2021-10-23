@@ -8,10 +8,19 @@ scroller.addEventListener("scroll", event => {
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowRight') {
-        athlete.style.backgroundImage = "url('https://media.discordapp.net/attachments/871977129376616459/886628120113844254/image2_1.gif')";
+        athlete.dataset.action = "run-right";
 	}
     if (event.key === 'ArrowLeft') {
-        athlete.style.backgroundImage = "url('https://media.discordapp.net/attachments/871977129376616459/894723788846030878/ezgif.com-gif-maker.gif')";
+        athlete.dataset.action = "run-left";
+    }
+});
+
+document.addEventListener('keyup', function (event) {
+    if (event.key === 'ArrowRight') {
+        athlete.dataset.action = "standframe";
+	}
+    if (event.key === 'ArrowLeft') {
+		athlete.dataset.action = "standframe";
     }
 });
 
