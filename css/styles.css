@@ -201,6 +201,8 @@ footer[data-footerseason="night"] {
   z-index: 2;
 }
 
+
+
 .athlete[data-action="standframe"] {
   background-image: url(/img/athlete/standframe.gif);
 }
@@ -860,3 +862,80 @@ label:active:after {
 }
 
 /*************************************************************** snow ********************************************************************/
+
+/****************************** moon *********************************/
+  .star-1{
+    position: relative;
+    background-color: #FFFDFD;
+    top: 50px;
+    left: -10px;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #FFFDFD,
+                -70px 150px 1px 0 #FFFDFD,
+                 290px 150px 1px -1px #0F00BF,
+                 -90px 100px 1px -1px #0C5DCC,
+                 270px 10px 1px 0.11px #FFFDFD,
+                 390px 80px 1px -0.6px #0C5DCC,
+                -30px 120px 3px -1px #0F00BF;
+    animation: pulsate 5s ease;
+    animation-iteration-count: infinite; 
+  
+  }
+  .star-2{
+    position: absolute;
+    background-color: #FFFF00;
+    top: 100px;
+    left: -60px;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px #FFFF00,
+                -99px 30px 1px 0.09px #FFFF00,
+                 355px 30px 0.5px 1px #FFFF00,
+                 400px -30px 1px -1px #FFFF00,
+                 400px 90px 1px -1px #FFFF00,
+                -50px -30px 1px -1px #FFFF00;
+    animation: pulsate 7s ease;
+    animation-iteration-count: infinite; 
+  
+  }
+  
+  .moon{
+    background-color: yellow;
+    position: absolute;
+    /* padding: 10px; */
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                0 0 10px 2px rgba(229,229,229,0.3),
+                5px 0 10px 3px rgba(229,229,229,0.3),
+                 0px 0 3px 2px rgba(229,229,229,0.3);
+    left: 500px;
+    right: 0;
+    bottom: 200px;
+    margin: auto;
+    z-index: 2;
+  }
+  
+  .moon::after{
+    content: "";
+    background-color: rgba(162, 162, 162, 0.81);
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    box-shadow: 3px 0 0 1px rgb(98 98 98 / 51%), 7px 45px 0 -5px rgb(162 162 162 / 90%), 9px 45px 0 -5px rgb(100 100 100 / 51%), 35px 20px 0 -3px rgb(162 162 162 / 90%), 37px 20px 0 -3px rgb(100 100 100 / 51%);
+  }
+  
+  @keyframes pulsate  {
+      0% { opacity: 0.0; }
+      50% { opacity: 1.0; }
+      100% { opacity: 0.0; }
+  }
