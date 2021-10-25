@@ -452,11 +452,30 @@ var winterImage = [
 
 
 function summer() {
+	main.dataset.main = "summer";
+
+	let clo_element = document.getElementById("clo")
+	clo_element.innerHTML= `
+	
+	<img src="/img/logo/olympic.png" style="width: 50%;">
+      <div class="cloud" data-cloud="1"></div>
+      <div class="cloud" data-cloud="2"></div>
+      <div class="cloud" data-cloud="3"></div>
+      <div class="cloud" data-cloud="4"></div>
+      <div class="cloud" data-cloud="5"></div>
+      <div class="cloud" data-cloud="6"></div>
+      <div class="cloud" data-cloud="7"></div>
+      <div class="cloud" data-cloud="8"></div>
+      <div class="cloud" data-cloud="9"></div>
+      <div class="cloud" data-cloud="10"></div>
+      <div class="cloud" data-cloud="11"></div>
+      <div class="cloud" data-cloud="12"></div>
+
+	` ;
+
 	let anim_element = document.getElementById("anim");
 	anim_element.innerHTML = `` ;
 
-	main.dataset.main = "summer";
-	
 	page1.dataset.season = "s-1896";
 	header1.dataset.header = "s-1896";
 	description1.dataset.description = "s-1896";
@@ -539,10 +558,12 @@ function summer() {
 }
 
 function winter() {
+	main.dataset.main = "winter";
+
+	let clo_element = document.getElementById("clo")
+	clo_element.innerHTML= `` ;
 
 	let anim_element = document.getElementById("anim");
-
-	main.dataset.main = "winter";
 	anim_element.innerHTML += 	`
 	<div class="snow s1"></div>
     <div class="snow s2"></div>
