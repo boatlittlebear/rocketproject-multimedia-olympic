@@ -1,10 +1,10 @@
-let scroller = document.querySelector("#slider");
+/*let scroller = document.querySelector("#slider");
 const output = document.querySelector("#output");
 
 scroller.addEventListener("scroll", event => {
   output.textContent = `scrollLeft: ${scroller.scrollLeft}`;
   document.body.style.setProperty("--left", scroller.scrollLeft);
-});
+});*/
 
 /*document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowRight') {
@@ -24,7 +24,7 @@ document.addEventListener('keyup', function (event) {
     }
 });*/
 
-scroller.onscroll = function() {
+/*scroller.onscroll = function() {
 	if (scroller.scrollLeft <= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
         canvas1.style.bottom = "3rem";
     }
@@ -201,7 +201,8 @@ scroller.onscroll = function() {
     if (scroller.scrollLeft >= barrier_27.offsetLeft + barrier_27.offsetWidth + barrier_27.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 11) {
         canvas1.style.bottom = "3rem";
 	}
-}
+	
+}*/
 
 
 var summerHost = [
