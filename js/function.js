@@ -460,7 +460,11 @@ var winterImage = [
 
 
 function summer() {
+
 	main.dataset.main = "summer";
+
+	let anim_element = document.getElementById("anim");
+	anim_element.innerHTML = `` ;
 	
 	page1.dataset.season = "s-1896";
 	header1.dataset.header = "s-1896";
@@ -544,8 +548,31 @@ function summer() {
 }
 
 function winter() {
-	main.dataset.main = "winter";
 	
+	main.dataset.main = "winter";
+
+	let anim_element = document.getElementById("anim");
+	anim_element.innerHTML += 	`
+	<div class="snow s1"></div>
+    <div class="snow s2"></div>
+    <div class="snow s3"></div>
+    <div class="snow s4"></div>
+    <div class="snow s5"></div>
+    <div class="snow s5"></div>
+    <div class="snow s6"></div>
+    <div class="snow s7"></div>
+    <div class="snow s8"></div>
+    <div class="snow s9"></div>
+    <div class="snow s10"></div>
+    <div class="snow s11"></div>
+    <div class="snow s12"></div>
+    <div class="snow s13"></div>
+    <div class="snow s14"></div>
+    <div class="snow s15"></div>
+    <div class="snow s16"></div>
+
+	` ;
+
 	page1.dataset.season = "w-1924";
 	header1.dataset.header = "w-1924";
 	description1.dataset.description = "w-1924";

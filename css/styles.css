@@ -173,7 +173,6 @@ section {
 	scroll-snap-align: start;
 	text-align: center;
 	position: relative;
-  transition: 1s;
   padding: 0 6rem 6rem;
 }
 /****************************** Slider & Section ******************************/
@@ -689,3 +688,127 @@ label:active:after {
 .door[data-door="2"] {
   right: 0;
 }
+
+/****************************** snow *********************************/
+
+.snow{
+  width: 10px;;
+  height:10px;
+  background-color:white;
+  position: absolute;
+  box-shadow: 0px 0px 10px 10px white;
+  border-radius: 100%;
+}
+
+@keyframes move{
+  from{top:-10%;}
+  to{top:120%;}
+}
+
+@keyframes left{
+  from{transform: translate(-20px);}
+  to{transform:translate(20px);}
+}
+
+@keyframes right{
+  from{transform: translate(20px);}
+  to{transform:translate(-20px);}
+}
+
+.s1{
+  left: 10%;
+  animation: move 10s infinite,
+  left 15s infinite;
+}
+
+.s2{
+  left: 25%;
+  animation: move 12s infinite,
+  left 21s infinite;
+}
+
+.s3{
+  left: 30%;
+  animation: move 19s infinite,
+  left 12s infinite;
+}
+
+.s4{
+  left: 35%;
+  animation: move 8s infinite,
+  right 25s infinite;
+}
+
+.s5{
+  left: 40%;
+  animation: move 13s infinite,
+  left 10s infinite;
+}
+
+.s6{
+  left: 45%;
+  animation: move 7s infinite,
+  left 26s infinite;
+}
+
+.s7{
+  left: 50%;
+  animation: move 14s infinite,
+  left 30s infinite;
+}
+
+.s8{
+  left: 7%;
+  animation: move 17s infinite,
+  right 25s infinite;
+}
+
+.s9{
+  left: 60%;
+  animation: move 16s infinite,
+  left 27s infinite;
+}
+
+.s10{
+  left: 2%;
+  animation: move 22s infinite,
+  left 19s infinite;
+}
+
+.s11{
+  left: 70%;
+  animation: move 9s infinite,
+  left 20s infinite;
+}
+
+.s12{
+  left: 75%;
+  animation: move 11s infinite,
+  left 28s infinite;
+}
+
+.s13{
+  left: 80%;
+  animation: move 9s infinite,
+  right 27s infinite;
+}
+
+.s14{
+  left: 85%;
+  animation: move 14s infinite,
+  left 25s infinite;
+}
+
+.s15{
+  left: 5%;
+  animation: move 16s infinite,
+  left 24s infinite;
+}
+
+.s16{
+  left: 95%;
+  animation: move 13s infinite,
+  right 23s infinite;
+}
+
+/*************************************************************** snow ********************************************************************/
