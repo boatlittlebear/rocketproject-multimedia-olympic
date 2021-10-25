@@ -24,6 +24,56 @@ body {
   /**background-image: linear-gradient(to bottom, #0B2342 0%, #263C50 100%);**/
 }
 
+/****************************** Button *********************************/
+.toggle {
+  width: 120px;
+  height: 70px;
+  transform: translate(-20%,30%);
+
+  border: 1px solid #fff;
+  border-radius: 100px;
+
+  background-color: #f0edf1;
+
+  box-shadow: inset 10px 10px 15px #a7aaaf, inset -10px -10px 15px #ffffff;
+  position: relative;
+}
+
+.toggle .icon {
+  width: 52px;
+  height: 52px;
+  margin: 9px;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+.toggle .moon {
+  opacity: 0;
+
+}
+.toggle input {
+  opacity: 0;
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.toggle input:checked + label .moon {
+  opacity: 1;
+
+}
+.toggle input:checked + label .sun {
+  opacity: 0;
+}
+
+.toggle input:checked + label .icon {
+  transform: translateX(50px) rotate(360deg);
+}
+/****************************** Button *********************************/
+
 /****************************** Extension ******************************/
 .backgroud-full {
   background-repeat: no-repeat;
@@ -545,7 +595,7 @@ section {
 
 /****************************** Barrier ******************************/
 
-/****************************** Change Season ******************************/
+/****************************** Change Season ******************************
 input[type=checkbox]{
 	height: 0;
 	width: 0;
