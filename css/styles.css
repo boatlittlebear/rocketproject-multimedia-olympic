@@ -590,8 +590,10 @@ section {
 }
 
 .barrier[data-barrier="28"] {
+  width: 500px;
+  height: 500px;
   margin-left: 190px;
-  background-image: url(/img/barrier/torch.png);
+  background-image: url("https://cdn.discordapp.com/attachments/871977129376616459/902274631287853066/torchstand.gif");
 }
 /****************************** Barrier ******************************/
 
