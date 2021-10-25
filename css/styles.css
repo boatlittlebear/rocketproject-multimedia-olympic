@@ -493,19 +493,16 @@ section {
 .barrier[data-barrier="8"] {
   right: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
-  
 }
+
 .barrier[data-barrier="9"] {
   left: 20rem;
- 
 }
 
 .barrier[data-barrier="10"] {
   left: 50%;
   right: 50%;
   background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG');
- 
-  
 }
 
 .barrier[data-barrier="11"] {
@@ -527,7 +524,6 @@ section {
 .barrier[data-barrier="14"] {
   right: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
-  
 }
 
 .barrier[data-barrier="15"] {
@@ -547,31 +543,25 @@ section {
 }
 
 .barrier[data-barrier="18"] {
-  
 }
 
 .barrier[data-barrier="19"] {
-  
   right: 0rem;
- 
-  
 }
+
 .barrier[data-barrier="20"] {
   left: 20rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
 }
 
 .barrier[data-barrier="21"] {
-  
- 
-  
 }
 
 .barrier[data-barrier="22"] {
   right: 20rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
-  
 }
+
 .barrier[data-barrier="23"] {
   width: 500px;
   left: 5rem;
@@ -584,7 +574,6 @@ section {
 
 .barrier[data-barrier="25"] {
   right: 10rem;
-  
 }
 
 .barrier[data-barrier="26"] {
@@ -598,8 +587,10 @@ section {
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
 }
 
-
-
+.barrier[data-barrier="28"] {
+  margin-left: 190px;
+  background-image: url(/img/barrier/torch.png);
+}
 /****************************** Barrier ******************************/
 
 /****************************** Change Season ******************************

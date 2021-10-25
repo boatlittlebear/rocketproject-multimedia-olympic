@@ -280,13 +280,15 @@ scroller.onscroll = function() {
         canvas1.style.bottom = "3rem";
         //playerState = "Rjump" 
 	}
+
+    if (scroller.scrollLeft >= barrier_28.offsetLeft - barrier_28.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 14) {
+        grandstand.style.background = "white";
+        //playerState = "Rjump"
+    }
+
     else{
         //playerState = "Rrun"
     }
-
-	if (scroller.scrollLeft >= window.innerWidth * 13) {
-        grandstand.style.background = "red";
-	}
 }
 
 
