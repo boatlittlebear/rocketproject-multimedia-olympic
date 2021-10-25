@@ -259,9 +259,7 @@ function summer() {
 
 	let clo_element = document.getElementById("clo")
 	clo_element.innerHTML= `
-	
-	<img src="/img/logo/olympic.png" style="width: 50%;">
-      <div class="cloud" data-cloud="1"></div>
+        <div class="cloud" data-cloud="1"></div>
       <div class="cloud" data-cloud="2"></div>
       <div class="cloud" data-cloud="3"></div>
       <div class="cloud" data-cloud="4"></div>
@@ -272,10 +270,7 @@ function summer() {
       <div class="cloud" data-cloud="9"></div>
       <div class="cloud" data-cloud="10"></div>
       <div class="cloud" data-cloud="11"></div>
-      <div class="cloud" data-cloud="12"></div>
-
-	` ;
-
+      <div class="cloud" data-cloud="12"></div>`;
 
 	let anim_element = document.getElementById("anim");
 	anim_element.innerHTML = `` ;
@@ -473,8 +468,10 @@ function change() {
 	var change = document.getElementById("change");
 	if (change.checked == true) {
 		winter();
+		clo.style.animationPlayState = "paused";
 	}
 	else {
 		summer();
+		clo.style.animationPlayState = "running";
 	}
 }

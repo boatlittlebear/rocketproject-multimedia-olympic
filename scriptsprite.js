@@ -278,14 +278,15 @@ scroller.onscroll = function() {
     }
     if (scroller.scrollLeft >= barrier_27.offsetLeft + barrier_27.offsetWidth + barrier_27.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 11) {
         canvas1.style.bottom = "3rem";
-        //playerState = "Rjump"
-        
+        //playerState = "Rjump" 
 	}
     else{
         //playerState = "Rrun"
     }
 
-	
+	if (scroller.scrollLeft >= window.innerWidth * 13) {
+        grandstand.style.background = "red";
+	}
 }
 
 

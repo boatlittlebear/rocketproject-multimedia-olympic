@@ -21,6 +21,7 @@
 body {
 	overflow-y: hidden;
   background-image: linear-gradient(to bottom, #3DA5FA 0%, #EEF5FF 100%);
+  background-image: linear-gradient(to bottom, #121528 0%, #3347B9 100%);
   /**background-image: linear-gradient(to bottom, #0B2342 0%, #263C50 100%);**/
 }
 
@@ -28,28 +29,16 @@ body {
 #title-logo{
   position: absolute;
 }
-
-#olympic-logo{
-  opacity: 50%;
-  
-}
-
-
-
-
-
 /****************************** Logos *********************************/
+
 /****************************** Button *********************************/
 .toggle {
   width: 120px;
   height: 70px;
   transform: translate(-20%,30%);
-
   border: 1px solid #fff;
   border-radius: 100px;
-
   background-color: #f0edf1;
-
   box-shadow: inset 10px 10px 15px #a7aaaf, inset -10px -10px 15px #ffffff;
   position: relative;
 }
@@ -152,7 +141,6 @@ body {
 .grandstand {
   width: 100%;
 	height: calc(100vh - 6rem);
-  background-image: url(/img/background/grandstand.png);
   background-position: bottom;
   background-size: 100%;
   z-index: -1;
@@ -160,6 +148,14 @@ body {
   background-repeat: repeat-x;
   background-position-x: calc(var(--left) * -.1px);
   filter: blur(5px);
+}
+
+.grandstand[data-grandstand="summer"] {
+  background-image: url(/img/background/grandstand.png);
+}
+
+.grandstand[data-grandstand="night"] {
+  background-image: url(/img/background/grandstand-w.png);
 }
 /****************************** Background ******************************/
 
@@ -174,16 +170,12 @@ footer {
   background-position-x: calc(var(--left) * -1px);
 }
 
-footer[data-footerseason="track"] {
+footer[data-footerseason="summer"] {
   background-image: url(/img/footer/run-track.png);
 }
 
-footer[data-footerseason="summer"] {
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/893863724711022602/unknown.png");
-}
-
-footer[data-footerseason="winter"] {
-  background-image: url("https://media.discordapp.net/attachments/598560825036242957/894713726329053275/pngkey.com-snow-png-14498.png?width=960&height=298");
+footer[data-footerseason="night"] {
+  background-image: url(/img/footer/run-track-w.png);
 }
 
 /*.athlete {
@@ -658,7 +650,7 @@ label:active:after {
 .cloud {
   width: 200px;
   height: 100px;
-  background-image: url("/img/background/cloud.png");
+  background-image: url("/img/background/cloud-n.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
