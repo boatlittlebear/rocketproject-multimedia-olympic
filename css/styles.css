@@ -245,10 +245,10 @@ section {
 }
 
 #page1[data-season="s-1896"] {
-  background-image: url(/img/background/parade.png);
+  background-image: url(/img/background/parades.png);
   background-origin: content-box;
   background-position: bottom;
-  background-size: auto 30%;
+  background-size: auto 60%;
 }
 
 #page2[data-season="r-1896"] {
