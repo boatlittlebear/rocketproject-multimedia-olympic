@@ -106,6 +106,34 @@ footer[data-footerseason="winter"] {
   transition: .1s;
   z-index: 2;
 }
+<<<<<<< Updated upstream
+=======
+#canvas1{
+  border:5px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  bottom: 3rem;
+  z-index: 2;
+}
+
+.athlete[data-action="standframe"] {
+  background-image: url(/img/athlete/standframe.gif);
+}
+
+.athlete[data-action="run-right"] {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/886628120113844254/image2_1.gif");
+}
+
+.athlete[data-action="run-left"] {
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/894723788846030878/ezgif.com-gif-maker.gif");
+
+}
+
+>>>>>>> Stashed changes
 /****************************** Footer ******************************/
 
 /****************************** Slider & Section ******************************/
