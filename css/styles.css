@@ -595,7 +595,7 @@ section {
   width: 500px;
   height: 500px;
   margin-left: 190px;
-  transition: 1s;
+  transition: 3s;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/902402576874614844/asasas.png?width=798&height=676");
 }
 /****************************** Barrier ******************************/
@@ -921,7 +921,7 @@ label:active:after {
                  0px 0 3px 2px rgba(229,229,229,0.3);
     left: 500px;
     right: 0;
-    transition: 1s;
+    transition: 3s;
     top: 60%;
     margin: auto;
     z-index: -1;
@@ -1050,9 +1050,13 @@ label:active:after {
 #showtext{
   opacity: 0%;
   transition: 2s;
-  text-shadow: 2px 2px #000;
+  text-shadow: 1px 1px #000;
   z-index: 2;
   font-family: Sriracha;
 
+}
+
+audio{
+  display: none;
 }
     /****************************** showtext *********************************/
