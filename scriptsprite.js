@@ -283,7 +283,7 @@ scroller.onscroll = function() {
 
     if (scroller.scrollLeft >= barrier_28.offsetLeft - barrier_28.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 14) {
         showtext.style.opacity = "100%";
-        showtext.innerHTML = "และนี่คือการแข่งขันกีฬาที่ยิ่งใหญ่ที่สุดของมวลมนุษยชาติ";
+        showtext.innerHTML = "และนี่คือการแข่งขันกีฬาที่ยิ่งใหญ่ที่สุดของมวลมนุษยชาติ !!!";
         //playerState = "Rjump"
     }
 
