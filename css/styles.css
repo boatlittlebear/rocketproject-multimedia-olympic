@@ -920,9 +920,10 @@ label:active:after {
                  0px 0 3px 2px rgba(229,229,229,0.3);
     left: 500px;
     right: 0;
-    top: 5%;
+    transition: 1s;
+    top: 60%;
     margin: auto;
-    z-index: 1;
+    z-index: -1;
   }
   
   .moon::after{
@@ -1047,7 +1048,7 @@ label:active:after {
     /****************************** showtext *********************************/
 #showtext{
   opacity: 0%;
-  transition: 1s;
+  transition: 2s;
   text-shadow: 2px 2px #000;
   z-index: 2;
   font-family: Sriracha;
