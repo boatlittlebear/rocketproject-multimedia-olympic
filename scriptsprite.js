@@ -286,6 +286,7 @@ scroller.onscroll = function() {
         showtext.innerHTML = "และนี่คือการแข่งขันกีฬาที่ยิ่งใหญ่ที่สุดของมวลมนุษยชาติ !!!";
         showtext.style.transform = "scale(2)";
         moon.style.top = "5%";
+        barrier_28.style.backgroundImage = "url('https://media.discordapp.net/attachments/871977129376616459/902274631287853066/torchstand.gif?width=798&height=676')";
         //playerState = "Rjump"
     }
 

@@ -595,7 +595,8 @@ section {
   width: 500px;
   height: 500px;
   margin-left: 190px;
-  background-image: url("https://cdn.discordapp.com/attachments/871977129376616459/902274631287853066/torchstand.gif");
+  transition: 1s;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/902402576874614844/asasas.png?width=798&height=676");
 }
 /****************************** Barrier ******************************/
 
