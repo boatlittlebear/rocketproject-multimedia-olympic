@@ -145,7 +145,7 @@ body {
 	height: calc(100vh - 6rem);
   background-position: bottom;
   background-size: 100%;
-  z-index: -1;
+  z-index: 0;
   position: absolute;
   background-repeat: repeat-x;
   background-position-x: calc(var(--left) * -.1px);
