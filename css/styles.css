@@ -94,18 +94,28 @@ body {
   flex-direction: column;
 }
 
+.flex-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.flex-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .fullwidth{
   width:100%;
 }
 
 .header {
-  width: 100%;
-  text-align: left;
   font-size: 50px;
   font-weight: bold;
-  color: #fff;
+  padding: 1rem;
   text-shadow: 2px 2px #000;
-
 }
 
 .left {
@@ -118,9 +128,39 @@ body {
   text-align: left;
   font-size: 20px;
   padding: 1rem;
+  line-height: 1.65;
+  letter-spacing: 1px;
   text-shadow: 2px 2px #000;
 }
 
+.description > h1 {
+  font-size: 70px;
+}
+
+.box {
+  margin: 0 5rem 0 0;
+}
+
+.flagL {
+  position: absolute;
+  left: 0;
+  bottom: 6rem;
+  z-index: -1;
+}
+
+.flagR {
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+  z-index: -1;
+}
+
+.podium {
+  position: absolute;
+  right: 3rem;
+  bottom: 6rem;
+  z-index: -1;
+}
 /****************************** Extension ******************************/
 
 .logo {
@@ -145,7 +185,7 @@ body {
 	height: calc(100vh - 6rem);
   background-position: bottom;
   background-size: 100%;
-  z-index: 0;
+  z-index: -2;
   position: absolute;
   background-repeat: repeat-x;
   background-position-x: calc(var(--left) * -.1px);
@@ -203,8 +243,6 @@ footer[data-footerseason="night"] {
   z-index: 2;
 }
 
-
-
 .athlete[data-action="standframe"] {
   background-image: url(/img/athlete/standframe.gif);
 }
@@ -234,7 +272,7 @@ section {
 	scroll-snap-align: start;
 	text-align: center;
 	position: relative;
-  padding: 0 6rem 6rem;
+  padding: 0 15rem 6rem;
 }
 /****************************** Slider & Section ******************************/
 
@@ -249,7 +287,6 @@ section {
 }
 
 #page1[data-season="s-1896"] {
-  background-image: url(/img/background/parades.png);
   background-origin: content-box;
   background-position: bottom;
   background-size: auto 60%;
@@ -324,7 +361,6 @@ section {
 }
 
 #page1[data-season="w-1924"] {
-  background-image: url(/background/ฝรั่งเศส2.png);
   background-origin: content-box;
   background-position: bottom;
   background-size: 100%;
@@ -337,7 +373,6 @@ section {
 }
 
 #page3[data-season="w-1936"] {
-  background-image: url(/background/เยอรมัน.png);
   background-origin: content-box;
   background-position: bottom;
   background-size: 100%;
@@ -349,7 +384,6 @@ section {
 }
 
 #page5[data-season="w-1948"] {
-  background-image: url(/background/ซวิต.png);
   background-origin: content-box;
   background-position: bottom;
   background-size: 100%;
@@ -362,7 +396,6 @@ section {
 }
 
 #page7[data-season="w-1984"] {
-  background: hsl(200, 100%, 15%);
   background-origin: content-box;
   background-position: bottom;
   background-size: 100%;
@@ -375,7 +408,6 @@ section {
 }
 
 #page9[data-season="w-2022"] {
-  background-image: url(/background/จีนปักกิ่ง.png);
   background-origin: content-box;
   background-position: bottom;
   background-size: 100%;
@@ -1045,7 +1077,6 @@ label:active:after {
   }
   #firework3 .explosion::before {
     animation: explosion 2s .4s ease-in-out infinite;
-    background-color: #AC;
   }
 
    /****************************** fireworks *********************************/
