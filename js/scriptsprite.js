@@ -292,6 +292,8 @@ scroller.onscroll = function() {
     }
 
     else{
+        snd.currentTime = 0;
+        snd.pause();
         //playerState = "Rrun"
     }
 }
