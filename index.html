@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>OLMPIC</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>OLMPIC</title>
 </head>
+
 <body onload="summer()">
   <div id="output">scrollLeft: 0</div>
   <div class="city"></div>
@@ -16,18 +18,20 @@
 
     <div id="anim"></div>
     <div id="clo"></div>
-    
+
     <section id="home" class="center backgroud-full" data-home="home">
       <img id="olympic-logo" src="/img/logo/olympic.png" style="width: 50%;">
       <img id="title-logo" src="/img/logo/History-of-olympics_logo.png" style="width: 80%;">
 
       <div class="change">
         <div class="toggle">
-          <input type="checkbox" id="change" onclick="change()"/>
+          <input type="checkbox" id="change" onclick="change()" />
           <label for="toggleBtn">
-            <img src="https://cdn.discordapp.com/attachments/819588431989571587/899875090555084840/sun_3.png" alt="sun icon" class="icon sun" />
-            <img src="https://cdn.discordapp.com/attachments/819588431989571587/899866208474644540/snowflakes.png" alt="moon icon" class="icon moon" />
-        </label>
+            <img src="https://cdn.discordapp.com/attachments/819588431989571587/899875090555084840/sun_3.png"
+              alt="sun icon" class="icon sun" />
+            <img src="https://cdn.discordapp.com/attachments/819588431989571587/899866208474644540/snowflakes.png"
+              alt="moon icon" class="icon moon" />
+          </label>
         </div>
       </div>
     </section>
@@ -52,7 +56,25 @@
           </p>
         </div>
       </div>
-      
+
+
+    </section>
+
+    <section id="main2" class="center backgroud-full" data-main="main2">
+      <div class="grid">
+        <div class="span-12 header">
+          โอลิมปิกมีความสำคัญอย่างไร
+        </div>
+        <div class="span-4 center">
+          <img src="/img/logo/olympic.png" style="width: 100%;">
+        </div>
+        <div class="span-8">
+          <p class="description">
+
+          </p>
+        </div>
+      </div>
+
 
     </section>
 
@@ -76,7 +98,7 @@
     <section id="page2" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header2" class="span-12 header" data-header="">
-            1st (เหตุการณ์สำคัญ) 
+          1st (เหตุการณ์สำคัญ)
         </div>
         <div class="span-4 center">
           <img id="image2" src="" style="width: 100%;">
@@ -86,17 +108,17 @@
           </p>
         </div>
       </div>
-      
+
       <div id="barrier_3" class="barrier" data-barrier="3"></div>
       <div id="barrier_4" class="barrier" data-barrier="4"></div>
       <div id="barrier_5" class="barrier" data-barrier="5"></div>
-      
+
     </section>
 
     <section id="page3" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header3" class="span-12 header" data-header="">
-            2nd 
+          2nd
         </div>
         <div class="span-4 center">
           <img id="image3" src="" style="width: 100%;">
@@ -109,13 +131,13 @@
       <div id="barrier_6" class="barrier" data-barrier="6"></div>
       <div id="barrier_7" class="barrier" data-barrier="7"></div>
       <div id="barrier_8" class="barrier" data-barrier="8"></div>
-      
+
     </section>
 
     <section id="page4" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header4" class="span-12 header" data-header="">
-            2nd (เหตุการณ์สำคัญ) 
+          2nd (เหตุการณ์สำคัญ)
         </div>
         <div class="span-4 center">
           <img id="image4" src="" style="width: 100%;">
@@ -129,11 +151,11 @@
       <div id="barrier_10" class="barrier" data-barrier="10"></div>
       <div id="barrier_11" class="barrier" data-barrier="11"></div>
     </section>
-      
+
     <section id="page5" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header5" class="span-12 header" data-header="">
-            3rd
+          3rd
         </div>
         <div class="span-4 center">
           <img id="image5" src="" style="width: 100%;">
@@ -151,7 +173,7 @@
     <section id="page6" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header6" class="span-12 header" data-header="">
-            3rd (เหตุการณ์สำคัญ) 
+          3rd (เหตุการณ์สำคัญ)
         </div>
         <div class="span-4 center">
           <img id="image6" src="" style="width: 100%;">
@@ -168,7 +190,7 @@
     <section id="page7" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header7" class="span-12 header" data-header="">
-            4th 
+          4th
         </div>
         <div class="span-4 center">
           <img id="image7" src="" style="width: 100%;">
@@ -186,7 +208,7 @@
     <section id="page8" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header8" class="span-12 header" data-header="">
-            4th (เหตุการณ์สำคัญ) 
+          4th (เหตุการณ์สำคัญ)
         </div>
         <div class="span-4 center">
           <img id="image8" src="" style="width: 100%;">
@@ -204,7 +226,7 @@
     <section id="page9" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header9" class="span-12 header" data-header="">
-            5th
+          5th
         </div>
         <div class="span-4 center">
           <img id="image9" src="" style="width: 100%;">
@@ -222,7 +244,7 @@
     <section id="page10" class="center backgroud-full" data-season="">
       <div class="grid">
         <div id="header10" class="span-12 header" data-header="">
-            5th (เหตุการณ์สำคัญ)
+          5th (เหตุการณ์สำคัญ)
         </div>
         <div class="span-4 center">
           <img id="image10" src="" style="width: 100%;">
@@ -236,9 +258,9 @@
       <div id="barrier_27" class="barrier" data-barrier="27"></div>
     </section>
     <section id="page11" class="center background-full">
-      
-     
-  
+
+
+
 
     </section>
 
@@ -246,7 +268,7 @@
       <h1 id="showtext">Demo Text</h1>
       <div class="moon" id="moon">
         <div class="star-1"></div>
-        <div class="star-2"></div> 
+        <div class="star-2"></div>
       </div>
 
       <div id="barrier_28" class="barrier" data-barrier="28"></div>
@@ -263,8 +285,8 @@
         <div class="explosion"></div>
         <div class="explosion"></div>
         <div class="explosion"></div>
-    </div>
-<div class="firework" id="firework2">
+      </div>
+      <div class="firework" id="firework2">
         <div class="explosion"></div>
         <div class="explosion"></div>
         <div class="explosion"></div>
@@ -277,28 +299,28 @@
         <div class="explosion"></div>
         <div class="explosion"></div>
         <div class="explosion"></div>
-    </div>
-<div class="firework" id="firework3">
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-	<div class="explosion"></div>
-</div>
-<audio controls loop id="snd">
+      </div>
+      <div class="firework" id="firework3">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+      </div>
+      <audio controls loop id="snd">
 
-  <source src="/sound/firework.mp3" type="audio/mpeg">
- 
-</audio>
+        <source src="/sound/firework.mp3" type="audio/mpeg">
+
+      </audio>
     </section>
-    
+
 
     <footer id="footer" class="" data-footerseason="night">
       <!--<div id="athlete" class="athlete backgroud-full" data-action="standframe"></div>-->
@@ -309,4 +331,5 @@
   <script src="js/function.js"></script>
   <script src="/scriptsprite.js"></script>
 </body>
+
 </html>

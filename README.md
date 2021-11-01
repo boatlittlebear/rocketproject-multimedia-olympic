@@ -37,10 +37,10 @@
 |รหัสนักศึกษา| ชื่อ - นามสกุล | Github | หน้าที่ | หมายเหตุ |
 |--|--|--|--|--|
 | 62070026 | จักรกฤษณ์ สายแฉ่ง | [boatlittlebear](https://github.com/boatlittlebear) | " ออกแบบตัวละครและพื้นหลัง เขียน SpriteSheetJavascript " | - |
-| 62070115 | ปรากรณ์ คำเภา | [prakorn2033](https://github.com/Prakorn2033) | "" |  |
-| 62070129 | พงศธร เหลืองประเสริฐ |[barost2709](https://github.com/barost2709) | "ทำระบบพลุ จัดวาง" | - |
-| 62070227 | เสฏฐนันท์ จงเจตน์ดี | [sedthanun](https://github.com/sedthanun) | "-" | ออกแบบ |
-| 62070227 | อิทธิ์ศรา ยันต์เจริญ | [Jaegerjaquez](https://github.com/imlanzelotx) | "ออกแบบ จัดวางเลย์เอาท์ " | - |
+| 62070115 | ปรากรณ์ คำเภา | [prakorn2033](https://github.com/Prakorn2033) | "หาข้อมูล" |  |
+| 62070129 | พงศธร เหลืองประเสริฐ |[barost2709](https://github.com/barost2709) | "หาข้อมูล" | - |
+| 62070227 | เสฏฐนันท์ จงเจตน์ดี | [sedthanun](https://github.com/sedthanun) | "ทำพลุโดยใช้ css "<br />"จัดวางแบริเออร์โดยใช้ css" | - |
+| 62070227 | อิทธิ์ศรา ยันต์เจริญ | [Jaegerjaquez](https://github.com/imlanzelotx) | "ทำโครงเว็บไซต์" | - |
 
 
 
