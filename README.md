@@ -40,7 +40,7 @@
 | 62070026 | จักรกฤษณ์ สายแฉ่ง | [boatlittlebear](https://github.com/boatlittlebear) | "ออกแบบตัวละคร""<br />"ออกแบบคบไฟ"<br />"ทำอนิเมชั่นโดยใช้ scriptsprite.js" | - |
 | 62070115 | ปรากรณ์ คำเภา | [prakorn2033](https://github.com/Prakorn2033) | "หาข้อมูล" <br />"ทำเมฆ css animation" | - |
 | 62070129 | พงศธร เหลืองประเสริฐ |[barost2709](https://github.com/barost2709) | "หาข้อมูล" <br />"ทำ switch togle design โดยใช้ css" | - |
-| 62070227 | เสฏฐนันท์ จงเจตน์ดี | [sedthanun](https://github.com/sedthanun) | "ทำพลุโดยใช้ css animation "<br />"จัดวางแบริเออร์โดยใช้ css" | - |
+| 62070212 | เสฏฐนันท์ จงเจตน์ดี | [sedthanun](https://github.com/sedthanun) | "ทำพลุโดยใช้ css animation "<br />"จัดวางแบริเออร์โดยใช้ css" | - |
 | 62070227 | อิทธิ์ศรา ยันต์เจริญ | [Jaegerjaquez](https://github.com/imlanzelotx) | "ทำโครงเว็บไซต์"  "<br />"ทำ onscroll Event โดยใช้ function.js" <br />"ทำ dataset screen โดยใช้ css" | - |
 
 
