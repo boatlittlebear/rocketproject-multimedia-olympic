@@ -34,49 +34,81 @@ body {
 /****************************** Logos *********************************/
 
 /****************************** Button *********************************/
-.toggle {
-  width: 120px;
-  height: 70px;
-  transform: translate(-20%,30%);
-  border: 1px solid #fff;
-  border-radius: 100px;
-  background-color: #f0edf1;
-  box-shadow: inset 10px 10px 15px #a7aaaf, inset -10px -10px 15px #ffffff;
+.button { /*button*/
   position: relative;
-}
-
-.toggle .icon {
-  width: 52px;
-  height: 52px;
-  margin: 9px;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  transition: all 0.4s;
-}
-.toggle .moon {
-  opacity: 0;
-
-}
-.toggle input {
-  opacity: 0;
-  width: 150px;
+  width: 133px;
   height: 70px;
+  margin: 0px;
+  transform: translate(-10%,30%);
+  border-radius: 100px;
   cursor: pointer;
+  border: 5px solid #BBBBBB;
+  overflow: hidden;
+}
+.button label{ /*background*/
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+input[type=checkbox] + label { /*summer bg*/
+  transition: background 0.5s ease-in-out;
+  background: url('https://cdn.discordapp.com/attachments/819588431989571587/902512739744907314/sunrise.jpg') no-repeat;
+  background-size: cover;
+}
+input[type=checkbox]:checked + label { /*winter bg*/
+  background: url('https://cdn.discordapp.com/attachments/819588431989571587/902509825785745448/winter333.jpg') no-repeat;
+  background-size: cover;
+}
+.button > input {
+  display: none;
+}
+label:after { /*switch*/
+  content: '';
+  background-color: #444444;
+  /*background: url('https://cdn.discordapp.com/attachments/819588431989571587/902506293598781471/summer_1.png') no-repeat;
+  background-size: cover;*/
+  position: absolute;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  top: 0px;
+  left: -2px;
+  animation: winter .5s forwards cubic-bezier(0.25, 0.1, 0.25,1.0);
 }
 
-.toggle input:checked + label .moon {
-  opacity: 1;
-
+@keyframes winter {
+  0%{
+    transform: translateX(65px);
+    width: 60px;
+  }
+  25%{
+    border-radius: 25px;
+    width: 90px;
+  }
+  100%{
+    transform: translateX(0px);
+    width: 60px;
+  }
 }
-.toggle input:checked + label .sun {
-  opacity: 0;
+
+input[type=checkbox]:checked + label:after { /*switch after*/
+  animation: summer .5s forwards cubic-bezier(0.25, 0.1, 0.25,1.0);
 }
 
-.toggle input:checked + label .icon {
-  transform: translateX(50px) rotate(360deg);
+@keyframes summer {
+  0%{
+    transform: translateX(0px);
+    width: 60px;
+  }
+  25%{
+    border-radius: 25px;
+    width: 90px;
+  }
+  100%{
+    transform: translateX(65px);
+    width: 60px;
+  }
 }
 /****************************** Button *********************************/
 
@@ -287,9 +319,12 @@ section {
 }
 
 #page1[data-season="s-1896"] {
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
-  background-size: auto 60%;
+  background-size: 35%;
 }
 
 #page2[data-season="r-1896"] {
@@ -300,23 +335,24 @@ section {
 }
 
 #page3[data-season="s-1900"] {
-  background-image: url();
+  background-image: url(/background/img_parade/france.png);
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page4[data-season="r-1900"] {
+  background-image: url();
   background-origin: content-box;
   background-position: bottom;
   background-size: 100%;
 }
 
 #page5[data-season="s-1948"] {
-  background-image: url();
+  background-image: url(/background/img_parade/england.png);
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page6[data-season="r-1948"] {
@@ -326,10 +362,10 @@ section {
 }
 
 #page7[data-season="s-2000"] {
-  background-image: url();
+  background-image: url(/background/img_parade/sydney.png);
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page8[data-season="r-2000"] {
@@ -339,10 +375,10 @@ section {
 }
 
 #page9[data-season="s-2020"] {
-  background-image: url();
+  background-image: url(/background/img_parade/tokyo.png);
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page10[data-season="r-2020"] {
@@ -354,16 +390,19 @@ section {
 
 /****************************** Winter ******************************/
 #main[data-main="winter"] {
-  background-image: url();
+  background-image: url(/img/background/announcer.png);
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: auto 35%;
 }
 
 #page1[data-season="w-1924"] {
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page2[data-season="r-1924"] {
@@ -373,9 +412,12 @@ section {
 }
 
 #page3[data-season="w-1936"] {
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 #page4[data-season="r-1936"] {
   background-origin: content-box;
@@ -384,9 +426,12 @@ section {
 }
 
 #page5[data-season="w-1948"] {
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page6[data-season="d-1948"] {
@@ -396,9 +441,12 @@ section {
 }
 
 #page7[data-season="w-1984"] {
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page8[data-season="r-1984"] {
@@ -408,9 +456,10 @@ section {
 }
 
 #page9[data-season="w-2022"] {
+
   background-origin: content-box;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 #page10[data-season="r-2022"] {
