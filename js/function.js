@@ -121,11 +121,11 @@ var summerImage = [
     `/img/logo/flag-s-2000.png`,
     `/img/logo/flag-s-2020.png`,
 
-	``, // podium1
-	``, // podium2
-	``, // podium3
-	``, // podium4
-	``  // podium5
+	`/background/podium/summer/1.png`, // podium1
+	`/background/podium/summer/2.png`, // podium2
+	`/background/podium/summer/3.png`, // podium3
+	`/background/podium/summer/4.png`, // podium4
+	`/background/podium/summer/5.png` // podium5
 ]
 
 var winterHost = [
@@ -250,7 +250,7 @@ var winterDescription = [
 
 	`ชาติที่เข้าร่วม :<br><h1>199</h1>ประเทศ`, // 8s
 
-	`ชาติที่เข้าร่วม :<br><h1>206</h1>ประเทศ`, // 10s
+	`ชาติที่เข้าร่วม :<br><h1>206</h1>ประเทศ` // 10s
 ]
 
 var winterImage = [
@@ -260,13 +260,12 @@ var winterImage = [
     `/img/logo/flag-w-1984.png`,
     `/img/logo/flag-w-2022.png`,
 
-    ``, // podium1
-	``, // podium2
-	``, // podium3
-	``, // podium4
-	``  // podium5
+    `/background/podium/winter/1.png`, // podium1
+	`/background/podium/winter/2.png`, // podium2
+	`/background/podium/winter/3.png`, // podium3
+	`/background/podium/winter/4.png`, // podium4
+	`/background/podium/winter/5.png` // podium5
 ]
-
 
 function summer() {
 	main.dataset.main = "summer";
