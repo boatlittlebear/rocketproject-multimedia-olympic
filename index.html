@@ -24,10 +24,14 @@
       <img id="title-logo" src="/img/logo/History-of-olympics_logo.png" style="width: 80%;">
 
       <div class="change">
-        <div class="button">
-          <input type="checkbox" id="change" onclick="change()"/>
-          <label for="change">
-        </label>
+        <div class="toggle">
+          <input type="checkbox" id="change" onclick="change()" />
+          <label for="toggleBtn">
+            <img src="https://cdn.discordapp.com/attachments/819588431989571587/899875090555084840/sun_3.png"
+              alt="sun icon" class="icon sun" />
+            <img src="https://cdn.discordapp.com/attachments/819588431989571587/899866208474644540/snowflakes.png"
+              alt="moon icon" class="icon moon" />
+          </label>
         </div>
       </div>
     </section>
@@ -40,7 +44,7 @@
         <div class="span-4 center">
           <img src="/img/logo/olympic.png" style="width: 100%;">
         </div>
-        <div class="span-4">
+        <div class="span-8">
           <p class="description">
             กีฬาโอลิมปิกเกมส์ (อังกฤษ: Olympic Games, ฝรั่งเศส: les Jeux olympiques, JO)<br>
             หรือกีฬาโอลิมปิกเกมส์สมัยใหม่ (อังกฤษ: Modern Olympic Games)<br>
@@ -56,7 +60,7 @@
 
     </section>
 
-    <!--<section id="main2" class="center backgroud-full" data-main="main2">
+    <section id="main2" class="center backgroud-full" data-main="main2">
       <div class="grid">
         <div class="span-12 header">
           โอลิมปิกมีความสำคัญอย่างไร
@@ -76,7 +80,7 @@
       </div>
 
 
-    </section>-->
+    </section>
 
     <section id="page1" class="center backgroud-full" data-season="">
       <div class="grid">
@@ -90,15 +94,6 @@
           </p>
         </div>
       </div>
-
-      <div class="span-4">
-        <div class="wrapper">
-          <div class="chart-wrapper">
-            <canvas id="chartDoughnut"></canvas>
-          </div>
-        </div>
-      </div>
-
       <div id="barrier_1" class="barrier" data-barrier="1"></div>
       <div id="barrier_2" class="barrier" data-barrier="2"></div>
 
@@ -267,28 +262,11 @@
       <div id="barrier_27" class="barrier" data-barrier="27"></div>
     </section>
     <section id="page11" class="center background-full">
-      <div class="grid">
-        <div class="span-12 header">
-          โอลิมปิกมีความสำคัญอย่างไร
-        </div>
-        <div class="span-4 center">
-          <img src="/img/logo/olympic.png" style="width: 100%;">
-        </div>
-        <div class="span-8">
-          <p class="description">
-            โอลิมปิก เรียกได้ว่าเป็นการแข่งกีฬาที่ยิ่งใหญ่ที่สุดของมวลมนุษยชาติ <br>
-            โอลิมปิกนั้นยังมีไม่ได้มีผลด้านการแข่งกีฬาเพียงอย่างเดียว ยังส่งผลไปถีง <br>
-            การเมืองเศรษฐกิจ และรวมไปถึงผลประโยชน์ของแต่ละประเทศที่ได้รับ <br>
-            ทำให้แต่ละปีของการจัดโอลิมปิกมีคุณค่าและผลประโยชน์ย่างมหาศาลนั้นเอง
-
-          </p>
-        </div>
 
 
 
 
     </section>
-    
 
     <section id="page12" class="center background-full">
       <h1 id="showtext">Demo Text</h1>
@@ -342,7 +320,7 @@
       </div>
       <audio controls loop id="snd">
 
-        <source src="/sound/Fireworks.mp3" type="audio/mpeg">
+        <source src="/sound/firework.mp3" type="audio/mpeg">
 
       </audio>
     </section>
@@ -356,7 +334,6 @@
 
   <script src="js/function.js"></script>
   <script src="/js/scriptsprite.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
 </body>
 
 </html>
