@@ -34,7 +34,6 @@ document.addEventListener('keydown', function (event) {
 	}
      if (event.key === 'ArrowLeft') {
         playerState = "Lrun";
-        
     }
 });
 
@@ -44,7 +43,6 @@ document.addEventListener('keyup', function (event) {
 	}
     if (event.key === 'ArrowLeft') {
         playerState = "Idle";
-		
     }
 });
 
@@ -298,7 +296,6 @@ scroller.onscroll = function() {
     }
 }
 
-
 let gameFrame = 0;
 const staggerFrames = 6;
 const spriteAnimations = [];
@@ -337,7 +334,6 @@ animationStates.forEach((state, index) => {
 
     }
     spriteAnimations[state.name] = frames;
-
 });
 
 function animate(){
@@ -352,10 +348,8 @@ function animate(){
         else frameX = 0;
         
     }
- 
-
     gameFrame++;
     requestAnimationFrame(animate);
-
 }
+
 animate();
