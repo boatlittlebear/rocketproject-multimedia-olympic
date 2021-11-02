@@ -52,7 +52,7 @@ body {
 }
 input[type=checkbox] + label { /*summer bg*/
   transition: background 0.5s ease-in-out;
-  background: url('https://cdn.discordapp.com/attachments/819588431989571587/902512739744907314/sunrise.jpg') no-repeat;
+  background: url('https://cdn.discordapp.com/attachments/819588431989571587/902424597608144956/summer22.jpg') no-repeat;
   background-size: cover;
 }
 input[type=checkbox]:checked + label { /*winter bg*/
@@ -64,7 +64,7 @@ input[type=checkbox]:checked + label { /*winter bg*/
 }
 label:after { /*switch*/
   content: '';
-  background-color: #444444;
+  background-color: #121528;
   /*background: url('https://cdn.discordapp.com/attachments/819588431989571587/902506293598781471/summer_1.png') no-repeat;
   background-size: cover;*/
   position: absolute;
@@ -126,18 +126,28 @@ input[type=checkbox]:checked + label:after { /*switch after*/
   flex-direction: column;
 }
 
+.flex-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.flex-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .fullwidth{
   width:100%;
 }
 
 .header {
-  width: 100%;
-  text-align: left;
   font-size: 50px;
   font-weight: bold;
-  color: #fff;
+  padding: 1rem;
   text-shadow: 2px 2px #000;
-
 }
 
 .left {
@@ -150,9 +160,39 @@ input[type=checkbox]:checked + label:after { /*switch after*/
   text-align: left;
   font-size: 20px;
   padding: 1rem;
+  line-height: 1.65;
+  letter-spacing: 1px;
   text-shadow: 2px 2px #000;
 }
 
+.description > h1 {
+  font-size: 70px;
+}
+
+.box {
+  margin: 0 5rem 0 0;
+}
+
+.flagL {
+  position: absolute;
+  left: 0;
+  bottom: 6rem;
+  z-index: -1;
+}
+
+.flagR {
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+  z-index: -1;
+}
+
+.podium {
+  position: absolute;
+  right: 3rem;
+  bottom: 6rem;
+  z-index: -1;
+}
 /****************************** Extension ******************************/
 
 .logo {
@@ -177,7 +217,7 @@ input[type=checkbox]:checked + label:after { /*switch after*/
 	height: calc(100vh - 6rem);
   background-position: bottom;
   background-size: 100%;
-  z-index: 0;
+  z-index: -2;
   position: absolute;
   background-repeat: repeat-x;
   background-position-x: calc(var(--left) * -.1px);
@@ -235,8 +275,6 @@ footer[data-footerseason="night"] {
   z-index: 2;
 }
 
-
-
 .athlete[data-action="standframe"] {
   background-image: url(/img/athlete/standframe.gif);
 }
@@ -266,7 +304,7 @@ section {
 	scroll-snap-align: start;
 	text-align: center;
 	position: relative;
-  padding: 0 6rem 6rem;
+  padding: 0 15rem 6rem;
 }
 /****************************** Slider & Section ******************************/
 
@@ -281,7 +319,9 @@ section {
 }
 
 #page1[data-season="s-1896"] {
-  background-image: url(/background/img_parade/Greece.png);
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
   background-size: 35%;
@@ -357,7 +397,9 @@ section {
 }
 
 #page1[data-season="w-1924"] {
-  background-image: url(/background/img_parade/france2.png);
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
   background-size: 35%;
@@ -370,7 +412,9 @@ section {
 }
 
 #page3[data-season="w-1936"] {
-  background-image: url(/background/img_parade/germany.png);
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
   background-size: 35%;
@@ -382,7 +426,9 @@ section {
 }
 
 #page5[data-season="w-1948"] {
-  background-image: url(/background/img_parade/switzerland.png);
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
   background-size: 35%;
@@ -395,7 +441,9 @@ section {
 }
 
 #page7[data-season="w-1984"] {
-  background-image: url(/background/img_parade/Yugoslavia.png);
+<<<<<<< HEAD
+=======
+>>>>>>> 08e5307538015f7dbadcb2976b21e8e4d33ce268
   background-origin: content-box;
   background-position: bottom;
   background-size: 35%;
@@ -408,7 +456,7 @@ section {
 }
 
 #page9[data-season="w-2022"] {
-  background-image: url(/background/img_parade/beijing.png);
+
   background-origin: content-box;
   background-position: bottom;
   background-size: 35%;
@@ -1078,7 +1126,6 @@ label:active:after {
   }
   #firework3 .explosion::before {
     animation: explosion 2s .4s ease-in-out infinite;
-    background-color: #AC;
   }
 
    /****************************** fireworks *********************************/
