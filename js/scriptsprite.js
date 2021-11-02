@@ -51,10 +51,12 @@ scroller.onscroll = function() {
         canvas1.style.bottom = "3rem";
         //playerState = "Rjump"
     }
+    
     if (scroller.scrollLeft >= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 3) {
         canvas1.style.bottom = "8rem";
         //playerState = "Rjump"
     }
+
     if (scroller.scrollLeft >= barrier_1.offsetLeft + barrier_1.offsetWidth + barrier_1.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
         canvas1.style.bottom = "3rem";
         //playerState = "Rjump"
