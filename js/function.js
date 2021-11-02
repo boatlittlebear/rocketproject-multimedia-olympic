@@ -18,24 +18,15 @@ var summerHost = [
 
 var summerDescription = [
     `<h2>มหกรรมกีฬาโอลิมปิกฤดูร้อนครั้งที่ 1 ประจำปี ค.ศ. 1896 (พ.ศ. 2439)</h2><br>
-	ความเป็นมา :<br>
-		เป็นกีฬาโอลิมปิกสมัยใหม่ครั้งแรกที่ได้ถูกจัดขึ้น เจ้าภาพอยู่ที่ประเทศต้นกำเนิดของโอลิมปิก กรุงเอเธนส์ ประเทศกรีซ ที่สนามกีฬาโอลิมปิก<br>
+	<h3>ความเป็นมา :</h3>
+		เป็นกีฬาโอลิมปิกสมัยใหม่ครั้งแรกที่ได้ถูกจัดขึ้น เจ้าภาพอยู่ที่ประเทศต้นกำเนิดของโอลิมปิก กรุงเอเธนส์ ประเทศกรีซ ที่สนามกีฬาโอลิมปิก
 	ซึ่งต่อมาได้ถูกทหารฝรั่งเศสทำลายในช่วงสงครามโลก
-	<br><br><br>
-	เหตุการณ์สำคัญ :<br>
+	<br><br>
+	<h3>เหตุการณ์สำคัญ :</h3>
 	การแข่งขันครั้งนี้นับว่าเป็นชัยชนะที่ยิ่งใหญ่ของกรีก ไม่ใช่แค่เพียงได้เป็นเจ้าภาพจัดการแข่งขันกีฬาโอลิมปิกครั้งนี้เท่านั้น
 	แต่เพราะนักกีฬาชาติกรีกได้นำชัยชนะมาให้กรีซ`, // ความเป็นมา, เหตุการณ์สำคัญ
 
-	`วันที่จัด : 6 เมษายน – 15 เมษายน 1896<br>
-    ชาติที่เข้าร่วม : 14 ประเทศ<br>
-    ผู้เข้าแข่งขัน : 241 คน<br>
-    ชาย : 241 คน | หญิง : 0 คน<br>
-    ชนิดกีฬา : 9 ชนิด<br>
-	ประเทศที่ชนะการแข่งขัน :<br>
-	1)สหรัฐอเมริกา<br>
-	2)กรีซ<br>
-	3)เยอรมนี<br>
-	<br>`, // รายละเอียดการจัดแข่งขัน
+	`วันที่จัด :<h1>6 – 15</h1>เมษายน 1896`, // รายละเอียดการจัดแข่งขัน
 
 	`<h2>มหกรรมกีฬาโอลิมปิกฤดูร้อนครั้งที่ 2 ประจำปี ค.ศ. 1900 (พ.ศ. 2443)</h2><br>
 	ความเป็นมา :<br>
@@ -110,19 +101,31 @@ var summerDescription = [
 	1)สหรัฐอเมริกา<br>
 	2)จีน<br>
 	3)ญี่ปุ่น<br>
-	<br>` // รายละเอียดการจัดแข่งขัน
+	<br>`,
+	
+	`ชาติที่เข้าร่วม :<br><h1>14</h1>ประเทศ`, // 2s
+
+	`ชาติที่เข้าร่วม :<br><h1>26</h1>ประเทศ`, // 4s
+
+	`ชาติที่เข้าร่วม :<br><h1>59</h1>ประเทศ`, // 6s
+
+	`ชาติที่เข้าร่วม :<br><h1>199</h1>ประเทศ`, // 8s
+
+	`ชาติที่เข้าร่วม :<br><h1>206</h1>ประเทศ`, // 10s
+
 ]
 var summerImage = [
-    `/img/logo/s-1896.webp`,
-	`/img/flag/greece.svg`,
-	`/img/logo/s-1900.webp`,
-	`/img/flag/france.svg`,
-	`/img/logo/s-1948.png`,
-	`/img/flag/london.svg`,
-	`/img/logo/s-2000.webp`,
-	`/img/flag/australia.svg`,
-	`/img/logo/s-2020.webp`,
-	`/img/flag/japan.svg`
+    `/img/logo/flag-s-1896.png`,
+    `/img/logo/flag-s-1900.png`,
+    `/img/logo/flag-s-1948.png`,
+    `/img/logo/flag-s-2000.png`,
+    `/img/logo/flag-s-2020.png`,
+
+	`/background/podium/summer/1.png`, // podium1
+	`/background/podium/summer/2.png`, // podium2
+	`/background/podium/summer/3.png`, // podium3
+	`/background/podium/summer/4.png`, // podium4
+	`/background/podium/summer/5.png` // podium5
 ]
 
 var winterHost = [
@@ -238,21 +241,31 @@ var winterDescription = [
 	2)<br>
 	3)<br>
 	<br>`, // รายละเอียดการจัดแข่งขัน
+
+	`ชาติที่เข้าร่วม :<br><h1>14</h1>ประเทศ`, // 2s
+
+	`ชาติที่เข้าร่วม :<br><h1>26</h1>ประเทศ`, // 4s
+
+	`ชาติที่เข้าร่วม :<br><h1>59</h1>ประเทศ`, // 6s
+
+	`ชาติที่เข้าร่วม :<br><h1>199</h1>ประเทศ`, // 8s
+
+	`ชาติที่เข้าร่วม :<br><h1>206</h1>ประเทศ` // 10s
 ]
 
 var winterImage = [
-    `/img/logo/w-1924.webp`,
-	`/img/flag/france.svg`,
-	`/img/logo/w-1936.png`,
-	`/img/flag/germany.svg`,
-	`/img/logo/w-1948.webp`,
-	`/img/flag/switzerland.svg`,
-	`/img/logo/w-1984.webp`,
-	`/img/flag/yugoslavia.svg`,
-	`/img/logo/w-2022.png`,
-	`/img/flag/china.svg`
-]
+    `/img/logo/flag-w-1924.png`,
+    `/img/logo/flag-w-1936.png`,
+    `/img/logo/flag-w-1948.png`,
+    `/img/logo/flag-w-1984.png`,
+    `/img/logo/flag-w-2022.png`,
 
+    `/background/podium/winter/1.png`, // podium1
+	`/background/podium/winter/2.png`, // podium2
+	`/background/podium/winter/3.png`, // podium3
+	`/background/podium/winter/4.png`, // podium4
+	`/background/podium/winter/5.png` // podium5
+]
 
 function summer() {
 
@@ -304,7 +317,8 @@ function summer() {
 	description1.dataset.description = "s-1896";
 	header1.innerHTML = summerHost[0];
 	description1.innerHTML = summerDescription[0];
-	image1.src =  summerImage[0];
+	flagL1.src =  summerImage[0];
+	flagR1.src =  summerImage[0];
 
 
 	page2.dataset.season = "r-1896";
@@ -312,15 +326,17 @@ function summer() {
 	description2.dataset.description = "r-1896";
 	header2.innerHTML = summerHost[1];
 	description2.innerHTML = summerDescription[1];
-	image2.src =  summerImage[1];
-	
+	description2s.innerHTML = summerDescription[10];
+	podium1.src =  summerImage[5];
+
 
 	page3.dataset.season = "s-1900";
 	header3.dataset.header = "s-1900";
 	description3.dataset.description = "s-1900";
 	header3.innerHTML = summerHost[2];
 	description3.innerHTML = summerDescription[2];
-	image3.src =  summerImage[2];
+	flagL2.src =  summerImage[1];
+	flagR2.src =  summerImage[1];
 	
 
 	page4.dataset.season = "r-1900";
@@ -328,15 +344,17 @@ function summer() {
 	description4.dataset.description = "r-1900";
 	header4.innerHTML = summerHost[3];
 	description4.innerHTML = summerDescription[3];
-	image4.src =  summerImage[3];
-	
+	description4s.innerHTML = summerDescription[11];
+	podium2.src =  summerImage[6];
+
 
 	page5.dataset.season = "s-1948";
 	header5.dataset.header = "s-1948";
 	description5.dataset.description = "s-1948";
 	header5.innerHTML = summerHost[4];
 	description5.innerHTML = summerDescription[4];
-	image5.src =  summerImage[4];
+	flagL3.src =  summerImage[2];
+	flagR3.src =  summerImage[2];
 	
 
 	page6.dataset.season = "r-1948";
@@ -344,7 +362,9 @@ function summer() {
 	description6.dataset.description = "r-1948";
 	header6.innerHTML = summerHost[5];
 	description6.innerHTML = summerDescription[5];
-	image6.src =  summerImage[5];
+	description6s.innerHTML = summerDescription[12];
+	podium3.src =  summerImage[5];
+
 	
 
 	page7.dataset.season = "s-2000";
@@ -352,7 +372,8 @@ function summer() {
 	description7.dataset.description = "s-2000";
 	header7.innerHTML = summerHost[6];
 	description7.innerHTML = summerDescription[6];
-	image7.src =  summerImage[6];
+	flagL4.src =  summerImage[3];
+	flagR4.src =  summerImage[3];
 	
 
 	page8.dataset.season = "r-2000";
@@ -360,24 +381,26 @@ function summer() {
 	description8.dataset.description = "r-2000";
 	header8.innerHTML = summerHost[7];
 	description8.innerHTML = summerDescription[7];
-	image8.src =  summerImage[7];
-	
+	description8s.innerHTML = summerDescription[13];
+	podium4.src =  summerImage[5];
+
 
 	page9.dataset.season = "s-2020";
 	header9.dataset.header = "s-2020";
 	description9.dataset.description = "s-2020";
 	header9.innerHTML = summerHost[8];
 	description9.innerHTML = summerDescription[8];
-	image9.src =  summerImage[8];
+	flagL5.src =  summerImage[4];
+	flagR5.src =  summerImage[4];
 	
-	
+
 	page10.dataset.season = "r-2020";
 	header10.dataset.header = "r-2020";
 	description10.dataset.description = "r-2020";
 	header10.innerHTML = summerHost[9];
 	description10.innerHTML = summerDescription[9];
-	image10.src =  summerImage[9];
-	
+	description10s.innerHTML = summerDescription[14];
+	podium5.src =  summerImage[10];
 }
 
 function winter() {
@@ -406,8 +429,8 @@ function winter() {
 	clo_element.innerHTML= `` ;
 
 	let anim_element = document.getElementById("anim");
-	anim_element.innerHTML += 	`
-	<div class="snow s1"></div>
+	anim_element.innerHTML += 	
+	`<div class="snow s1"></div>
     <div class="snow s2"></div>
     <div class="snow s3"></div>
     <div class="snow s4"></div>
@@ -423,23 +446,23 @@ function winter() {
     <div class="snow s13"></div>
     <div class="snow s14"></div>
     <div class="snow s15"></div>
-    <div class="snow s16"></div>
-
-	` ;
+    <div class="snow s16"></div>` ;
 
 	page1.dataset.season = "w-1924";
 	header1.dataset.header = "w-1924";
 	description1.dataset.description = "w-1924";
 	header1.innerHTML = winterHost[0];
 	description1.innerHTML = winterDescription[0];
-	image1.src =  winterImage[0];
+	flagL1.src =  winterImage[0];
+	flagR1.src =  winterImage[0];
 
 	page2.dataset.season = "r-1924";
 	header2.dataset.header = "r-1924";
 	description2.dataset.description = "r-1924";
 	header2.innerHTML = winterHost[1];
 	description2.innerHTML = winterDescription[1];
-	image2.src =  winterImage[1];
+	description2s.innerHTML = winterDescription[10];
+	podium1.src =  winterImage[5];
 	
 
 	page3.dataset.season = "w-1936";
@@ -447,7 +470,8 @@ function winter() {
 	description3.dataset.description = "w-1936";
 	header3.innerHTML = winterHost[2];
 	description3.innerHTML = winterDescription[2];
-	image3.src =  winterImage[2];
+	flagL2.src =  winterImage[1];
+	flagR2.src =  winterImage[1];
 	
 
 	page4.dataset.season = "r-1936";
@@ -455,7 +479,9 @@ function winter() {
 	description4.dataset.description = "r-1936";
 	header4.innerHTML = winterHost[3];
 	description4.innerHTML = winterDescription[3];
-	image4.src =  winterImage[3];
+	description4s.innerHTML = winterDescription[11];
+	podium2.src =  winterImage[6];
+
 	
 
 	page5.dataset.season = "w-1948";
@@ -463,7 +489,9 @@ function winter() {
 	description5.dataset.description = "w-1948";
 	header5.innerHTML = winterHost[4];
 	description5.innerHTML = winterDescription[4];
-	image5.src =  winterImage[4];
+	flagL3.src =  winterImage[2];
+	flagR3.src =  winterImage[2];
+
 	
 
 	page6.dataset.season = "d-1948";
@@ -471,7 +499,9 @@ function winter() {
 	description6.dataset.description = "d-1948";
 	header6.innerHTML = winterHost[5];
 	description6.innerHTML = winterDescription[5];
-	image6.src =  winterImage[5];
+	description6s.innerHTML = winterDescription[12];
+	podium3.src =  winterImage[7];
+
 	
 
 	page7.dataset.season = "w-1984";
@@ -479,7 +509,8 @@ function winter() {
 	description7.dataset.description = "w-1984";
 	header7.innerHTML = winterHost[6];
 	description7.innerHTML = winterDescription[6];
-	image7.src =  winterImage[6];
+	flagL4.src =  winterImage[3];
+	flagR4.src =  winterImage[3];
 	
 
 	page8.dataset.season = "r-1984";
@@ -487,7 +518,8 @@ function winter() {
 	description8.dataset.description = "r-1984";
 	header8.innerHTML = winterHost[7];
 	description8.innerHTML = winterDescription[7];
-	image8.src =  winterImage[7];
+	description8s.innerHTML = winterDescription[13];
+	podium4.src =  winterImage[8];
 	
 
 	page9.dataset.season = "w-2022";
@@ -495,7 +527,8 @@ function winter() {
 	description9.dataset.description = "w-2022";
 	header9.innerHTML = winterHost[8];
 	description9.innerHTML = winterDescription[8];
-	image9.src =  winterImage[8];
+	flagL5.src =  winterImage[4];
+	flagR5.src =  winterImage[4];
 	
 	
 	page10.dataset.season = "r-2022";
@@ -503,7 +536,8 @@ function winter() {
 	description10.dataset.description = "r-2022";
 	header10.innerHTML = winterHost[9];
 	description10.innerHTML = winterDescription[9];
-	image10.src =  winterImage[9];
+	description10s.innerHTML = winterDescription[14];
+	podium5.src =  winterImage[9];
 }
 
 function change() {
@@ -517,3 +551,8 @@ function change() {
 		clo.style.animationPlayState = "running";
 	}
 }
+
+document.getElementById('slider').addEventListener('mousewheel', function(e) {
+	this.scrollLeft -= (e.wheelDelta);
+	e.preventDefault();
+  }, false);
