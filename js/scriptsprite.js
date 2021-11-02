@@ -351,3 +351,18 @@ function animate(){
 }
 
 animate();
+
+window.addEventListener("wheel", function(e) {
+    var dir = Math.sign(e.deltaY);
+    if (dir > 0){
+        playerState = "Rrun"
+
+    }
+    if (dir < 0) {
+        playerState = "Lrun";
+
+    }
+    if(dir = 0){
+        playerState = "Idle"
+    }
+});

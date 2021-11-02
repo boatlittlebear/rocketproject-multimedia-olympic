@@ -495,23 +495,22 @@ section {
 
 
 .barrier[data-barrier="1"] {
-  left: 20rem;
+  left: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="2"] {
-  right: 10rem;
+  right: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="3"] {
-  left: 20rem;
+  left: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="4"] {
-  left: 55%;
-  right: 50%;
+  left: 50%;
 }
 
 .barrier[data-barrier="5"] {
@@ -520,13 +519,12 @@ section {
   
 }
 .barrier[data-barrier="6"] {
-  left: 20rem;
+  left: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="7"] {
-  left: 55%;
-  right: 50%;
+  left: 50%;
 }
 
 .barrier[data-barrier="8"] {
@@ -535,29 +533,29 @@ section {
 }
 
 .barrier[data-barrier="9"] {
-  left: 20rem;
+  left: 0rem;
 }
 
 .barrier[data-barrier="10"] {
-  left: 50%;
-  right: 50%;
-  background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG');
-}
-
-.barrier[data-barrier="11"] {
   width: 400px;
-  right: 0rem;
+  left: 40%;
   bottom: 1rem;
   background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG');
-  background-size: 100%;
+  }
+
+.barrier[data-barrier="11"] {
+  right: 0rem;
+  background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG');
+
 }
 
 .barrier[data-barrier="12"] {
-  left: 20rem;
+  left: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="13"] {
+  left: 50%;
 }
 
 .barrier[data-barrier="14"] {
@@ -566,22 +564,24 @@ section {
 }
 
 .barrier[data-barrier="15"] {
-  left: 20rem;
+  left: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774059016388648/e7b6c81cde0aee44.PNG");
 }
 
 .barrier[data-barrier="16"] {
-  right: 10rem;
+  right: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
 }
 
 .barrier[data-barrier="17"] {
   left: 0rem;
-  width: 500px;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
 }
 
 .barrier[data-barrier="18"] {
+  width: 400px;
+  left: 40%;
+  bottom: 1rem;
+  background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG');
 }
 
 .barrier[data-barrier="19"] {
@@ -589,41 +589,44 @@ section {
 }
 
 .barrier[data-barrier="20"] {
-  left: 20rem;
+  left: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
 }
 
 .barrier[data-barrier="21"] {
+  left: 50%;
 }
 
 .barrier[data-barrier="22"] {
-  right: 20rem;
+  right: 0rem;
   background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
 }
 
 .barrier[data-barrier="23"] {
-  width: 500px;
-  left: 5rem;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
-}
+  left: 0rem;
+  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+ }
 
 .barrier[data-barrier="24"] {
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+  width: 400px;
+  left: 40%;
+  bottom: 1rem;
+  background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG');
 }
 
 .barrier[data-barrier="25"] {
-  right: 10rem;
+  right: 0rem;
 }
 
 .barrier[data-barrier="26"] {
-  width: 500px;
-  left: 5rem;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG");
+  width: 400px;
+  left: 40%;
+  bottom: 1rem;
+  background-image: url('https://media.discordapp.net/attachments/871977129376616459/898774077752361002/d64453cba9a7c2ca.PNG');
 }
 
 .barrier[data-barrier="27"] {
-  right: 10rem;
-  background-image: url("https://media.discordapp.net/attachments/871977129376616459/898774073071529984/07118eeb663b721b.PNG");
+  right: 0rem;
 }
 
 .barrier[data-barrier="28"] {
@@ -953,13 +956,13 @@ label:active:after {
     box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
                 0 0 10px 2px rgba(229,229,229,0.3),
                 5px 0 10px 3px rgba(229,229,229,0.3),
-                 0px 0 3px 2px rgba(229,229,229,0.3);
+                0px 0 3px 2px rgba(229,229,229,0.3);
     left: 500px;
     right: 0;
     transition: 3s;
     top: 60%;
     margin: auto;
-    z-index: -1;
+    z-index: -3;
   }
   
   .moon::after{
@@ -980,8 +983,8 @@ label:active:after {
       50% { opacity: 1.0; }
       100% { opacity: 0.0; }
   }
-  /****************************** moon *********************************/
-   /****************************** fireworks *********************************/
+/****************************** moon *********************************/
+/****************************** fireworks *********************************/
    .firework {
     position: absolute;
   }
@@ -1079,8 +1082,8 @@ label:active:after {
     animation: explosion 2s .4s ease-in-out infinite;
   }
 
-   /****************************** fireworks *********************************/
-    /****************************** showtext *********************************/
+/****************************** fireworks *********************************/
+/****************************** showtext *********************************/
 #showtext{
   opacity: 0%;
   transition: 2s;
@@ -1093,4 +1096,4 @@ label:active:after {
 audio{
   display: none;
 }
-    /****************************** showtext *********************************/
+/****************************** showtext *********************************/
