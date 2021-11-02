@@ -22,9 +22,7 @@
 
 body {
 	overflow-y: hidden;
-  background-image: linear-gradient(to bottom, #3DA5FA 0%, #EEF5FF 100%);
   background-image: linear-gradient(to bottom, #121528 0%, #3347B9 100%);
-  /**background-image: linear-gradient(to bottom, #0B2342 0%, #263C50 100%);**/
 }
 
 /****************************** Logos *********************************/
@@ -34,49 +32,79 @@ body {
 /****************************** Logos *********************************/
 
 /****************************** Button *********************************/
-.toggle {
-  width: 120px;
-  height: 70px;
-  transform: translate(-20%,30%);
-  border: 1px solid #fff;
-  border-radius: 100px;
-  background-color: #f0edf1;
-  box-shadow: inset 10px 10px 15px #a7aaaf, inset -10px -10px 15px #ffffff;
+.button { 
   position: relative;
-}
-
-.toggle .icon {
-  width: 52px;
-  height: 52px;
-  margin: 9px;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  transition: all 0.4s;
-}
-.toggle .moon {
-  opacity: 0;
-
-}
-.toggle input {
-  opacity: 0;
-  width: 150px;
+  width: 133px;
   height: 70px;
+  margin: 0px;
+  transform: translate(-10%,30%);
+  border-radius: 100px;
   cursor: pointer;
+  border: 5px solid #BBBBBB;
+  overflow: hidden;
+}
+.button label{ 
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+input[type=checkbox] + label { 
+  transition: background 0.5s ease-in-out;
+  background: url('https://cdn.discordapp.com/attachments/819588431989571587/902424597608144956/summer22.jpg') no-repeat;
+  background-size: cover;
+}
+input[type=checkbox]:checked + label {
+  background: url('https://cdn.discordapp.com/attachments/819588431989571587/902509825785745448/winter333.jpg') no-repeat;
+  background-size: cover;
+}
+.button > input {
+  display: none;
+}
+label:after {
+  content: '';
+  background-color: #121528;
+  position: absolute;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  top: 0px;
+  left: -2px;
+  animation: winter .5s forwards cubic-bezier(0.25, 0.1, 0.25,1.0);
 }
 
-.toggle input:checked + label .moon {
-  opacity: 1;
-
+@keyframes winter {
+  0%{
+    transform: translateX(65px);
+    width: 60px;
+  }
+  25%{
+    border-radius: 25px;
+    width: 90px;
+  }
+  100%{
+    transform: translateX(0px);
+    width: 60px;
+  }
 }
-.toggle input:checked + label .sun {
-  opacity: 0;
+
+input[type=checkbox]:checked + label:after {
+  animation: summer .5s forwards cubic-bezier(0.25, 0.1, 0.25,1.0);
 }
 
-.toggle input:checked + label .icon {
-  transform: translateX(50px) rotate(360deg);
+@keyframes summer {
+  0%{
+    transform: translateX(0px);
+    width: 60px;
+  }
+  25%{
+    border-radius: 25px;
+    width: 90px;
+  }
+  100%{
+    transform: translateX(65px);
+    width: 60px;
+  }
 }
 /****************************** Button *********************************/
 
@@ -155,13 +183,19 @@ body {
   z-index: -1;
 }
 
+.announcer {
+  position: absolute;
+  right: 30rem;
+  bottom: 6rem;
+  z-index: -1;
+}
+
 .podium {
   position: absolute;
   right: 6rem;
   bottom: 6rem;
   z-index: -1;
 }
-/****************************** Extension ******************************/
 
 .logo {
   width: 325px;
@@ -178,6 +212,7 @@ body {
   background: #000;;
   z-index: 3;
 }
+/****************************** Extension ******************************/
 
 /****************************** Background ******************************/
 .grandstand {
@@ -277,10 +312,8 @@ section {
 /****************************** Slider & Section ******************************/
 
 /****************************** Data-Set-background ******************************/
-
 /****************************** Summer ******************************/
 #main[data-main="summer"] {
-  background-image: url(/img/background/announcer.png);
   background-origin: content-box;
   background-position: bottom;
   background-size: auto 35%;
@@ -419,7 +452,6 @@ section {
   background-size: 100%;
 }
 /****************************** Winter ******************************/
-
 /****************************** Data-Set-background ******************************/
 
 
@@ -492,7 +524,6 @@ section {
   background-position: center;
   background-size: contain;
 }
-
 
 .barrier[data-barrier="1"] {
   left: 0rem;
@@ -764,26 +795,7 @@ label:active:after {
 }
 /****************************** Cloud ******************************/
 
-
-.door {
-  height: 100%;
-  width: 100px;
-  background: #000;
-  z-index: 4;
-  position: absolute;
-  bottom: 0;
-}
-
-.door[data-door="1"] {
-  left: 0rem;
-}
-
-.door[data-door="2"] {
-  right: 0;
-}
-
 /****************************** snow *********************************/
-
 .snow{
   width: 10px;;
   height:10px;
@@ -903,7 +915,6 @@ label:active:after {
   animation: move 13s infinite,
   right 23s infinite;
 }
-
 /*************************************************************** snow ********************************************************************/
 
 /****************************** moon *********************************/
@@ -984,6 +995,7 @@ label:active:after {
       100% { opacity: 0.0; }
   }
 /****************************** moon *********************************/
+
 /****************************** fireworks *********************************/
    .firework {
     position: absolute;
@@ -1083,6 +1095,7 @@ label:active:after {
   }
 
 /****************************** fireworks *********************************/
+
 /****************************** showtext *********************************/
 #showtext{
   opacity: 0%;
