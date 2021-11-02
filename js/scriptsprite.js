@@ -138,7 +138,7 @@ scroller.onscroll = function() {
         //playerState = "Rjump"
 	}
 	if (scroller.scrollLeft >= barrier_11.offsetLeft - barrier_11.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 6) {
-        canvas1.style.bottom = "4rem";
+        canvas1.style.bottom = "8rem";
         //playerState = "Rjump"
     }
     if (scroller.scrollLeft >= barrier_11.offsetLeft + barrier_11.offsetWidth + barrier_11.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 5) {
