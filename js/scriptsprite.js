@@ -49,11 +49,25 @@ document.addEventListener('keyup', function (event) {
 scroller.onscroll = function() {
 	if (scroller.scrollLeft <= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 2) {
         canvas1.style.bottom = "3rem";
+        t1.classList.add("active");
+        t2.classList.remove("active");
+        t3.classList.remove("active");
+        t4.classList.remove("active");
+        t5.classList.remove("active");
+        t6.classList.remove("active");
+        t7.classList.remove("active");
         //playerState = "Rjump"
     }
     
     if (scroller.scrollLeft >= barrier_1.offsetLeft - barrier_1.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 3) {
         canvas1.style.bottom = "8rem";
+        t1.classList.remove("active");
+        t2.classList.add("active");
+        t3.classList.remove("active");
+        t4.classList.remove("active");
+        t5.classList.remove("active");
+        t6.classList.remove("active");
+        t7.classList.remove("active");
         //playerState = "Rjump"
     }
 
@@ -98,6 +112,13 @@ scroller.onscroll = function() {
 
 	if (scroller.scrollLeft >= barrier_6.offsetLeft - barrier_6.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 5) {
         canvas1.style.bottom = "8rem";
+        t1.classList.remove("active");
+        t2.classList.remove("active");
+        t3.classList.add("active");
+        t4.classList.remove("active");
+        t5.classList.remove("active");
+        t6.classList.remove("active");
+        t7.classList.remove("active");
         //playerState = "Rjump"
     }
     if (scroller.scrollLeft >= barrier_6.offsetLeft + barrier_6.offsetWidth + barrier_6.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 4) {
@@ -148,6 +169,13 @@ scroller.onscroll = function() {
 
 	if (scroller.scrollLeft >= barrier_12.offsetLeft - barrier_12.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 7) {
         canvas1.style.bottom = "8rem";
+        t1.classList.remove("active");
+        t2.classList.remove("active");
+        t3.classList.remove("active");
+        t4.classList.add("active");
+        t5.classList.remove("active");
+        t6.classList.remove("active");
+        t7.classList.remove("active");
         //playerState = "Rjump"
     }
     if (scroller.scrollLeft >= barrier_12.offsetLeft + barrier_12.offsetWidth + barrier_12.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 6) {
@@ -190,6 +218,13 @@ scroller.onscroll = function() {
 
 	if (scroller.scrollLeft >= barrier_17.offsetLeft - barrier_17.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 9) {
         canvas1.style.bottom = "8rem";
+        t1.classList.remove("active");
+        t2.classList.remove("active");
+        t3.classList.remove("active");
+        t4.classList.remove("active");
+        t5.classList.add("active");
+        t6.classList.remove("active");
+        t7.classList.remove("active");
         //playerState = "Rjump"
     }
     if (scroller.scrollLeft >= barrier_17.offsetLeft + barrier_17.offsetWidth + barrier_17.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 8) {
@@ -241,6 +276,13 @@ scroller.onscroll = function() {
 	
 	if (scroller.scrollLeft >= barrier_23.offsetLeft - barrier_23.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 11) {
         canvas1.style.bottom = "8rem";
+        t1.classList.remove("active");
+        t2.classList.remove("active");
+        t3.classList.remove("active");
+        t4.classList.remove("active");
+        t5.classList.remove("active");
+        t6.classList.add("active");
+        t7.classList.remove("active");
         //playerState = "Rjump"
     }
     if (scroller.scrollLeft >= barrier_23.offsetLeft + barrier_23.offsetWidth + barrier_23.offsetWidth/2 - window.innerWidth/2 + window.innerWidth * 10) {
@@ -282,6 +324,13 @@ scroller.onscroll = function() {
 	}
 
     if (scroller.scrollLeft >= barrier_28.offsetLeft - barrier_28.offsetWidth/2 - window.innerWidth/2 - window.innerWidth + window.innerWidth * 14) {
+        t1.classList.remove("active");
+        t2.classList.remove("active");
+        t3.classList.remove("active");
+        t4.classList.remove("active");
+        t5.classList.remove("active");
+        t6.classList.remove("active");
+        t7.classList.add("active");
         showtext.style.opacity = "100%";
         showtext.innerHTML = "และนี่คือการแข่งขันกีฬาที่ยิ่งใหญ่ที่สุดของมวลมนุษยชาติ !!!";
         showtext.style.transform = "scale(2)";
