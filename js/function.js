@@ -451,13 +451,17 @@ function winter() {
 
 function change() {
 	var change = document.getElementById("change");
+	var txt = document.getElementById("textbox");
 	if (change.checked == true) {
 		winter();
 		clo.style.animationPlayState = "paused";
+		txt.innerHTML="<h4>SWITCH TO SUMMER</h4>";
+
 	}
 	else {
 		summer();
 		clo.style.animationPlayState = "running";
+		txt.innerHTML="<h4>SWITCH TO WINTER</h4>";
 	}
 }
 

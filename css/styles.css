@@ -590,6 +590,14 @@ section {
   z-index: 1;
 
 }
+
+.textbox{
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  z-index: 1;
+
+}
 /****************************** Switch SS ******************************/
 
 
