@@ -144,6 +144,8 @@ input[type=checkbox]:checked + label:after {
   font-weight: bold;
   padding: 1rem;
   text-shadow: 2px 2px #000;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .left {
