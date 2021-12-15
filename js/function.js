@@ -238,6 +238,12 @@ function summer() {
 	let anim_element = document.getElementById("anim");
 	anim_element.innerHTML = `` ;
 	
+	t2.innerHTML = "1896";
+	t3.innerHTML = "1900";
+	t4.innerHTML = "1948";
+	t5.innerHTML = "2000";
+	t6.innerHTML = "2020";
+
 	page1.dataset.season = "s-1896";
 	header1.dataset.header = "s-1896";
 	description1.dataset.description = "s-1896";
@@ -255,6 +261,9 @@ function summer() {
 	description2s.innerHTML = summerDescription[10];
 	description2p.innerHTML = summerDescription[15];
 	podium1.src =  summerImage[5];
+	tooltip1a.innerHTML=`สหรัฐอเมริกา : <h1>11</h1>`;
+	tooltip1b.innerHTML=`กรีซ :<h1>10</h1>`;
+	tooltip1c.innerHTML=`เยอรมนี :<h1>6</h1>`;
 
 
 	page3.dataset.season = "s-1900";
@@ -274,6 +283,9 @@ function summer() {
 	description4s.innerHTML = summerDescription[11];
 	description4p.innerHTML = summerDescription[16];
 	podium2.src =  summerImage[6];
+	tooltip2a.innerHTML=`ฝรั่งเศส : <h1>29</h1>`;
+	tooltip2b.innerHTML=`สหรัฐอเมริกา :<h1>19</h1>`;
+	tooltip2c.innerHTML=`อังกฤษ :<h1>16</h1>`;
 
 
 	page5.dataset.season = "s-1948";
@@ -293,6 +305,10 @@ function summer() {
 	description6s.innerHTML = summerDescription[12];
 	description6p.innerHTML = summerDescription[17];
 	podium3.src =  summerImage[7];
+	tooltip3a.innerHTML=`สหรัฐอเมริกา : <h1>38</h1>`;
+	tooltip3b.innerHTML=`สวีเดน :<h1>16</h1>`;
+	tooltip3c.innerHTML=`ฝรั่งเศส :<h1>10</h1>`;
+
 
 	
 
@@ -313,6 +329,9 @@ function summer() {
 	description8s.innerHTML = summerDescription[13];
 	description8p.innerHTML = summerDescription[18];
 	podium4.src =  summerImage[8];
+	tooltip4a.innerHTML=`สหรัฐอเมริกา : <h1>40</h1>`;
+	tooltip4b.innerHTML=`รัสเซีย :<h1>32</h1>`;
+	tooltip4c.innerHTML=`จีน :<h1>28</h1>`;
 
 
 	page9.dataset.season = "s-2020";
@@ -332,6 +351,10 @@ function summer() {
 	description10s.innerHTML = summerDescription[14];
 	description10p.innerHTML = summerDescription[19];
 	podium5.src =  summerImage[9];
+	nodata.style.display='block';
+	tooltip5a.innerHTML=`สหรัฐอเมริกา : <h1>39</h1>`;
+	tooltip5b.innerHTML=`จีน :<h1>38</h1>`;
+	tooltip5c.innerHTML=`ญี่ปุ่น :<h1>27</h1>`;
 }
 
 function winter() {
@@ -361,6 +384,14 @@ function winter() {
     <div class="snow s15"></div>
     <div class="snow s16"></div>` ;
 
+
+	t2.innerHTML = "1924";
+	t3.innerHTML = "1936";
+	t4.innerHTML = "1948";
+	t5.innerHTML = "1984";
+	t6.innerHTML = "2022";
+
+	
 	page1.dataset.season = "w-1924";
 	header1.dataset.header = "w-1924";
 	description1.dataset.description = "w-1924";
@@ -377,6 +408,9 @@ function winter() {
 	description2s.innerHTML = winterDescription[10];
 	description2p.innerHTML = winterDescription[15];
 	podium1.src =  winterImage[5];
+	tooltip1a.innerHTML=`นอร์เวย์ : <h1>4</h1>`;
+	tooltip1b.innerHTML=`ฟินแลนด์ :<h1>4</h1>`;
+	tooltip1c.innerHTML=`ออสเตรีย :<h1>2</h1>`;
 	
 
 	page3.dataset.season = "w-1936";
@@ -396,6 +430,10 @@ function winter() {
 	description4s.innerHTML = winterDescription[11];
 	description4p.innerHTML = winterDescription[16];
 	podium2.src =  winterImage[6];
+	tooltip2a.innerHTML=`นอร์เวย์: <h1>7</h1>`;
+	tooltip2b.innerHTML=`เยอรมนี :<h1>3</h1>`;
+	tooltip2c.innerHTML=`สวีเดน :<h1>2</h1>`;
+
 
 	
 
@@ -417,6 +455,9 @@ function winter() {
 	description6s.innerHTML = winterDescription[12];
 	description6p.innerHTML = winterDescription[17];
 	podium3.src =  winterImage[7];
+	tooltip3a.innerHTML=`นอร์เวย์: <h1>4</h1>`;
+	tooltip3b.innerHTML=`สวีเดน :<h1>4</h1>`;
+	tooltip3c.innerHTML=`สวิตเซอร์แลนด์ :<h1>3</h1>`;
 
 	
 
@@ -437,6 +478,9 @@ function winter() {
 	description8s.innerHTML = winterDescription[13];
 	description8p.innerHTML = winterDescription[18];
 	podium4.src =  winterImage[8];
+	tooltip4a.innerHTML=`เยอรมนีตะวันออก: <h1>9</h1>`;
+	tooltip4b.innerHTML=`สหภาพโซเวียต :<h1>6</h1>`;
+	tooltip4c.innerHTML=`สหรัฐอเมริกา :<h1>4</h1>`;
 	
 
 	page9.dataset.season = "w-2022";
@@ -456,6 +500,10 @@ function winter() {
 	description10s.innerHTML = winterDescription[14];
 	description10p.innerHTML = winterDescription[19];
 	podium5.src =  winterImage[9];
+	nodata.style.display='none';
+	tooltip5a.innerHTML=``;
+	tooltip5b.innerHTML=``;
+	tooltip5c.innerHTML=``;
 }
 
 function change() {
