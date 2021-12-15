@@ -1206,8 +1206,8 @@ audio{
 /****************************** showtext *********************************/
 /******************************  tooltip *********************************/
 .podium .tooltip{
-  color: white;
-  background-color: rgba(255,255, 255,20%);
+  color: black;
+  background-color: rgb(25, 32, 73, 90%);
   outline: #ffff solid 3px;
   padding: 1rem;
   border-radius: 20px;
@@ -1220,8 +1220,6 @@ audio{
   opacity: 0;
   transition: opacity .5s;
   transform: scale(.7);
-
-
 }
 
 .podium .tooltip::after{

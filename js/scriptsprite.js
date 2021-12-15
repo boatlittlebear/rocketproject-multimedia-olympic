@@ -23,10 +23,7 @@ dropdown.addEventListener('change', function(e){
 let scroller = document.querySelector("#slider");
 const output = document.querySelector("#output");
 
-scroller.addEventListener("scroll", event => {
-  output.textContent = `scrollLeft: ${scroller.scrollLeft}`;
-  document.body.style.setProperty("--left", scroller.scrollLeft);
-});
+
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowRight') {
