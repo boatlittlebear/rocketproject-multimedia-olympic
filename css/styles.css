@@ -1206,7 +1206,7 @@ audio{
 /****************************** showtext *********************************/
 /******************************  tooltip *********************************/
 .podium .tooltip{
-  color: black;
+  color: white;
   background-color: rgb(25, 32, 73, 90%);
   outline: #ffff solid 3px;
   padding: 1rem;
