@@ -465,12 +465,22 @@ function change() {
 		winter();
 		clo.style.animationPlayState = "paused";
 		txt.innerHTML="<h4>SWITCH TO SUMMER</h4>";
-
+		t2.innerHTML='<a href="#page1">1924</a>';
+		t3.innerHTML='<a href="#page3">1936</a>';
+		t4.innerHTML='<a href="#page5">1948</a>';
+		t5.innerHTML='<a href="#page7">1984</a>';
+		t6.innerHTML='<a href="#page9">2022</a>';
+		
 	}
 	else {
 		summer();
 		clo.style.animationPlayState = "running";
 		txt.innerHTML="<h4>SWITCH TO WINTER</h4>";
+		t2.innerHTML='<a href="#page1">1896</a>';
+		t3.innerHTML='<a href="#page3">1900</a>';
+		t4.innerHTML='<a href="#page5">1948</a>';
+		t5.innerHTML='<a href="#page7">2000</a>';
+		t6.innerHTML='<a href="#page9">2021</a>';
 	}
 }
 
