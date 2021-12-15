@@ -238,11 +238,6 @@ function summer() {
 	let anim_element = document.getElementById("anim");
 	anim_element.innerHTML = `` ;
 	
-	t2.innerHTML = "1896";
-	t3.innerHTML = "1900";
-	t4.innerHTML = "1948";
-	t5.innerHTML = "2000";
-	t6.innerHTML = "2020";
 
 	page1.dataset.season = "s-1896";
 	header1.dataset.header = "s-1896";
@@ -385,11 +380,6 @@ function winter() {
     <div class="snow s16"></div>` ;
 
 
-	t2.innerHTML = "1924";
-	t3.innerHTML = "1936";
-	t4.innerHTML = "1948";
-	t5.innerHTML = "1984";
-	t6.innerHTML = "2022";
 
 	
 	page1.dataset.season = "w-1924";
